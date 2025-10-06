@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-prerequisites.html 
+keywords: what are volume caching requirements, volume caching prerequisites 
+summary: 'Per iniziare a utilizzare la memorizzazione nella cache dei volumi, verifica il supporto per il tuo ambiente, l"accesso alla rete, l"accesso e il browser Web.' 
+---
+= Prerequisiti per la memorizzazione nella cache del volume
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Per iniziare, verifica la prontezza del tuo ambiente operativo, dell'accesso, dell'accesso alla rete e del browser web.
+
+Per utilizzare la memorizzazione nella cache dei volumi, è necessario assicurarsi che l'ambiente soddisfi tutti i requisiti.
+
+* ONTAP 9.8 e versioni successive
++
+** Autorizzazioni ONTAP dell'amministratore del cluster
+** Intercluster LIF sui cluster
+
+
+* Nella console NetApp :
++
+** L'agente Console deve essere configurato nella console NetApp .  Tutti i cluster di origine e di destinazione devono trovarsi sullo stesso agente Console. Fare riferimento al https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Avvio rapido di BlueXP"^] E https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Scopri di più sugli agenti della console"^] .
+** L'ambiente di lavoro deve essere predisposto.
+** I cluster devono essere aggiunti nell'ambiente di lavoro di destinazione e in stato ON o degradato.
+** Requisiti standard della console NetApp . Fare riferimento a https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisiti della console NetApp"^] .
+
+
+

@@ -1,0 +1,16 @@
+---
+section: get-started
+title: Iniziare
+entries:
+- title: Scopri di più sulla memorizzazione nella cache dei volumi
+  url: "/get-started/cache-intro.html"
+- title: Prerequisiti
+  url: "/get-started/cache-prerequisites.html"
+- title: Avvio rapido
+  url: "/get-started/cache-quick-start.html"
+- title: Imposta la memorizzazione nella cache del volume
+  url: "/get-started/cache-setup.html"
+- title: Accedi all'opzione di memorizzazione nella cache del volume
+  url: "/get-started/cache-login.html"
+- title: Domande frequenti
+  url: "/get-started/cache-faq.html"

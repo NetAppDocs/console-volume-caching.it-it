@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: release-notes/cache-limitations.html 
+keywords: volume caching, bluexp 
+summary: Le limitazioni note identificano piattaforme, dispositivi o funzioni che non sono supportati da questa versione del servizio o che non interagiscono correttamente con esso. 
+---
+= Limitazioni note della memorizzazione nella cache del volume
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le limitazioni note identificano piattaforme, dispositivi o funzioni che non sono supportati da questa versione del servizio o che non interagiscono correttamente con esso.
+
+
+
+== Limitazione nella copia delle regole di policy di esportazione della cache
+
+Le regole dei criteri di esportazione della cache non vengono copiate nel volume della cache nelle seguenti situazioni:
+
+* Quando il sistema del volume di origine è Amazon FSx for NetApp ONTAP o Cloud Volumes ONTAP e il volume della cache è ONTAP 9.10.1 o precedente.
+* Quando il sistema del volume di origine è una qualsiasi versione di ONTAP e il volume della cache è ONTAP 9.10.1 o precedente.
+
+
+Soluzione alternativa: è necessario creare manualmente le regole per il volume della cache.
+
+
+
+== La creazione della cache non riesce per le VM di archiviazione con lo stesso nome
+
+Se i cluster di origine e di destinazione utilizzano VM di archiviazione con lo stesso nome, la cache non viene creata.
+
+Soluzione alternativa: utilizzare nomi diversi per le VM di archiviazione di origine e di destinazione.
+
+
+
+== Ritardo nella visualizzazione di policy di esportazione nuove o modificate di recente
+
+Quando si crea una cache, potrebbe non essere possibile visualizzare nell'elenco un criterio di esportazione creato o modificato di recente.
+
+Soluzione alternativa: riprovare tra qualche minuto.
+
+
+
+== La creazione della cache non riesce quando la destinazione ha abilitato solo il protocollo CIFS
+
+La creazione della cache non riesce se il cluster di origine o di destinazione ha ONTAP 9.10.1 o versione precedente e il cluster di destinazione ha abilitato solo il protocollo CIFS.
+
+Soluzione alternativa: utilizzare un cluster di destinazione che esegue ONTAP 9.11.1 o versione successiva oppure con entrambi i protocolli CIFS e NFS configurati.

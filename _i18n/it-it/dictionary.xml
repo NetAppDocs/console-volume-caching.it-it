@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="5f63db6bf0512dc0612ee852c1faf373" category="doc">BlueXP volume caching</block>
+  <block id="b83ba84e8b66440b0a36bc88ba58ce87" category="paragraph">La BlueXP volume caching, una funzionalità del software ONTAP 9, è una funzionalità di memorizzazione nella cache remota che semplifica la distribuzione dei file, riduce la latenza WAN avvicinando le risorse alla posizione degli utenti e delle risorse di elaborazione e abbassa i costi della larghezza di banda WAN.  La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la BlueXP volume caching per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.</block>
+  <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">Con la BlueXP volume caching, hai funzionalità di memorizzazione nella cache per il cloud, in particolare per Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP e ambienti di lavoro locali.</block>
+  <block id="2012f97762e54c6c0012de439f8eb421" category="inline-link-macro">Scopri di più sulla memorizzazione nella cache dei volumi</block>
+  <block id="32e43821995e99fb72cdac5dd21f43b4" category="paragraph"><block ref="d441c17803a6d3d32848ba89d4709eae" category="inline-link-macro-rx"></block> .</block>
+  <block id="9b5a1e6c05cb5a9a8a4d5f1e2605ce55" category="doc">La BlueXP volume caching ora è la memorizzazione nella cache del volume</block>
+  <block id="f8e8412fccd7f025d572fec3a13f08fe" category="paragraph">La BlueXP volume caching è stata rinominata in memorizzazione nella cache del volume.</block>
+  <block id="1404848cfe6595d928cbdff8fae23869" category="paragraph">È possibile accedervi dalla barra di navigazione sinistra della console NetApp selezionando *Mobilità* &gt; *Memorizzazione nella cache del volume*.</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP è ora NetApp Console</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e dei NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">Note sulla versione della console NetApp</block>
+  <block id="07a0717927710f1dcb5683cb20238dcb" category="paragraph">Per i dettagli su cosa è cambiato, vedere<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> .</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a una domanda.</block>
+  <block id="acb4c9a04e4760c031f72ceb892088ee" category="doc">Domande frequenti sulla memorizzazione nella cache dei volumi</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link"><block ref="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link-rx"></block></block>
+  <block id="6c9cda3f575fce2b59c81ac734f25c87" category="paragraph">*Qual è l'URL di memorizzazione nella cache del volume?*  Per l'URL, in un browser, inserisci:<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block> per accedere alla console BlueXP .</block>
+  <block id="ce01fa818e0ea3677f470fba4801dc2d" category="paragraph">*È necessaria una licenza per utilizzare la memorizzazione nella cache dei volumi?* Non è richiesto un file di licenza NetApp (NLF).</block>
+  <block id="03de66a3bc883d54e10eff243b71fbab" category="paragraph">*Come si abilita la memorizzazione nella cache del volume?*  La memorizzazione nella cache del volume non richiede alcuna abilitazione.  L'opzione di memorizzazione nella cache del volume viene visualizzata automaticamente nella barra di navigazione a sinistra della console NetApp .</block>
+  <block id="11b0112abbdba4f187a0d5cd55f67b6c" category="summary">La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.</block>
+  <block id="4c4d2004da2d4dab5bb560145ef937c7" category="doc">Scopri di più sulla memorizzazione nella cache dei volumi</block>
+  <block id="acb735bd5a7c773d33ba29a45c50737a" category="paragraph">La memorizzazione nella cache del volume, una funzionalità del software ONTAP 9, è una funzionalità di memorizzazione nella cache remota che semplifica la distribuzione dei file, riduce la latenza WAN avvicinando le risorse alla posizione degli utenti e delle risorse di elaborazione e abbassa i costi della larghezza di banda WAN.  La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.</block>
+  <block id="479f19475e2dd084513dab64284eb721" category="paragraph">Con la memorizzazione nella cache dei volumi, hai a disposizione funzionalità di memorizzazione nella cache per il cloud, in particolare per Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP e ambienti di lavoro locali.</block>
+  <block id="dd5ab32ff61153926563e4d2110445b6" category="paragraph">La memorizzazione nella cache dei volumi consente inoltre alle filiali di accedere ai set di dati aziendali.  Fornendo _dati attivi_, dati a cui è necessario accedere frequentemente da più controller in un cluster, è possibile aumentare le prestazioni fornite alle applicazioni chiave.  Inoltre, memorizzando nella cache i dati importanti a livello locale per gli utenti in più sedi nel mondo, è possibile migliorare la loro collaborazione consentendo l'accesso simultaneo a set di dati centralizzati e riducendo al contempo i tempi di risposta quando accedono ai dati importanti.</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">Console NetApp</block>
+  <block id="953ec04cfd6a17011e0166e01775e88a" category="paragraph">La memorizzazione nella cache dei volumi è accessibile tramite la console NetApp .</block>
+  <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp Console offre una gestione centralizzata dei servizi di storage e dati NetApp in ambienti on-premise e cloud di livello aziendale. La console è necessaria per accedere e utilizzare i servizi dati NetApp . In quanto interfaccia di gestione, consente di gestire numerose risorse di archiviazione da un'unica interfaccia. Gli amministratori della console possono controllare l'accesso allo storage e ai servizi per tutti i sistemi all'interno dell'azienda.</block>
+  <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">Per iniziare a utilizzare NetApp Console non è necessaria una licenza o un abbonamento e verranno addebitati costi solo quando sarà necessario distribuire gli agenti della console nel cloud per garantire la connettività ai sistemi di storage o ai servizi dati NetApp . Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono concessi in licenza o basati su abbonamento.</block>
+  <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">Scopri di più su<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block> .</block>
+  <block id="da693da874d690d16f540e10e65a2321" category="section-title">Cos'è una cache?</block>
+  <block id="a6d4ceba96fb1d711128b98f2e1eaa34" category="paragraph">Una cache è una posizione di archiviazione temporanea che risiede tra un host e la fonte dei dati.  L'obiettivo di una cache è quello di memorizzare le porzioni di dati sorgente a cui si accede di frequente, in modo da consentire che i dati vengano forniti più velocemente di quanto avverrebbe recuperandoli dalla sorgente.  Le cache sono particolarmente utili negli ambienti ad alta intensità di lettura, in cui i dati vengono acceduti più volte e sono condivisi da più host.  Un sistema cache è più veloce di un sistema con sorgente dati, grazie a un sistema di archiviazione più veloce e alla vicinanza dello spazio di archiviazione della cache all'host.</block>
+  <block id="1ff36319d88227573243b34cfcc88ca5" category="section-title">Vantaggi della memorizzazione nella cache dei volumi</block>
+  <block id="e7b882d61a65174f42223c66c70096ee" category="paragraph">La memorizzazione nella cache dei volumi offre i seguenti vantaggi:</block>
+  <block id="ac662afad2227cc15160fd5b457146bd" category="list-text">Accelerare le prestazioni in un'infrastruttura cloud ibrida</block>
+  <block id="00ebffbe73c6303da2faaad0ab45e519" category="list-text">Eliminare i silos cloud memorizzando nella cache i dati da un provider cloud all'altro</block>
+  <block id="3539435a6de515609cc1b8543224f713" category="list-text">Costi di stoccaggio inferiori</block>
+  <block id="a1b38c81c5d745e1d6ec22e5dd6e03bc" category="list-text">Collaborare tra diverse posizioni geografiche</block>
+  <block id="c9ffd0422125f32e82a20e75ccd4fa42" category="list-text">Capacità di adattarsi più rapidamente ai mutevoli ambienti IT</block>
+  <block id="02472e415a539d0a8886679760e38e96" category="list-text">Caching dei volumi su richiesta o in abbonamento ospitato nel cloud</block>
+  <block id="90b267b6d1a3a176db85194015816bdf" category="section-title">Cosa puoi fare con la memorizzazione nella cache del volume</block>
+  <block id="96a73f3eb476a386c0d4022fdcd79b05" category="paragraph">La memorizzazione nella cache dei volumi consente di sfruttare appieno diverse tecnologie NetApp per raggiungere i seguenti obiettivi:</block>
+  <block id="b165c27356ec72ed87e0d89023b56a29" category="list-text">Memorizza i dati nella cache da un provider cloud a un altro</block>
+  <block id="6d14d0fea89a1c59e9646774b2dce3ef" category="list-text">Visualizza e modifica una policy di esportazione della cache</block>
+  <block id="fd420f91fd55c70ed0b581da9becda92" category="list-text">Ridimensiona una cache esistente</block>
+  <block id="920c52111a4f53311c7b220606acb733" category="list-text">Elimina una cache</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Costo</block>
+  <block id="3d55ff142f5e56c58635f96fb60c71d0" category="paragraph">NetApp non addebita alcun costo per la memorizzazione nella cache dei volumi, ma è necessario verificare con il proprio provider cloud i costi applicabili per l'ingresso e l'uscita dei dati.</block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">Licenza</block>
+  <block id="4417f17d6aeb62c4957925fd7183a07c" category="paragraph">Per la memorizzazione nella cache dei volumi non sono necessarie licenze ONTAP speciali.</block>
+  <block id="331a9d90178c830eec27205a387c2dfa" category="section-title">Come funziona la memorizzazione nella cache del volume</block>
+  <block id="72534499f07252c8719e630ee58c0667" category="paragraph">Un volume cache è un volume scarsamente popolato supportato da un volume sorgente.  Il volume della cache può trovarsi sullo stesso cluster del volume di origine oppure su un cluster diverso.</block>
+  <block id="30f631144fe5bb7751ead1fe9ac7c6f5" category="paragraph">Il volume della cache fornisce l'accesso ai dati nel volume di origine senza richiedere che tutti i dati siano nel volume della cache.  L'archiviazione dei dati nel volume di memorizzazione nella cache viene gestita in modo efficiente conservando solo i dati attivi (dati in funzione o utilizzati di recente).</block>
+  <block id="37557b8c90039bea4fa08bc67cc6b243" category="paragraph">La memorizzazione nella cache del volume legge le richieste se il volume della cache contiene i dati richiesti dal client.  In caso contrario, il servizio di memorizzazione nella cache del volume richiede i dati dal volume di origine e li memorizza prima di soddisfare la richiesta del client.  Le richieste successive di dati vengono quindi gestite direttamente dal volume della cache.  Ciò migliora le prestazioni quando si accede ripetutamente agli stessi dati, perché dopo la prima richiesta, i dati non devono più viaggiare attraverso la rete o essere forniti da un sistema sovraccarico.</block>
+  <block id="4017ec2b586cd47355d18cabf7609659" category="summary">Per iniziare a utilizzare la memorizzazione nella cache dei volumi, accedi al servizio nella console NetApp .</block>
+  <block id="152cc532030bdb299df4c0963b720fb4" category="doc">Accesso alla memorizzazione nella cache del volume</block>
+  <block id="cf073b020cede5876551f4905bc27cea" category="paragraph">Per accedere all'opzione di memorizzazione nella cache del volume, utilizzare la console NetApp .</block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link">Scopri di più sull'accesso</block>
+  <block id="acca0538f1851a14dc6ee2d63f1533a9" category="paragraph">Per accedere alla console NetApp , puoi utilizzare le credenziali del sito di supporto NetApp .<block ref="83012c4a40bb3321733997744c83daa9" category="inline-link-rx"></block> .</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Passi</block>
+  <block id="8859695a85afcf4d196795433a572988" category="inline-link">Console NetApp</block>
+  <block id="205d84b6377f703c3dad4c8973e9f9fe" category="list-text">Apri un browser web e vai su<block ref="729bc7d8b8964e56d3f2c909ebee01e1" category="inline-link-rx"></block> .</block>
+  <block id="0daac1b9cd4c3a240bf2f6b44ba178a1" category="paragraph">Viene visualizzata la pagina di accesso alla console NetApp .</block>
+  <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">Accedi alla Console.</block>
+  <block id="685bf0c6938aac694b7f715ca5ab7594" category="list-text">Dal menu di navigazione a sinistra della Console, seleziona *Mobilità* &gt; *Memorizzazione nella cache del volume*.</block>
+  <block id="e9d0563880c518332c5657bb388dc935" category="inline-image-macro">immagine della landing page per il volume-caching</block>
+  <block id="575a3014ec6abcbafb4ee878f15c2659" category="paragraph">Viene visualizzata la dashboard della memorizzazione nella cache del volume.<block ref="1d5ddc4a04ccc8130b7d403f1b6e6b88" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d29462a6f3d69287d617ba8e6d5e1f25" category="inline-link-macro">Imposta la memorizzazione nella cache del volume</block>
+  <block id="9aa0485090e68790cb76e5d3be940fcf" category="admonition">Se non è configurato un agente Console, viene visualizzata l'opzione *Aggiungi un agente Console*. Fare riferimento a <block ref="041a8dd494e8c29eb6f2a25bc2aba9af" category="inline-link-macro-rx"></block> .</block>
+  <block id="c8af4e66767b2c892a94c205333ff750" category="summary">Per iniziare a utilizzare la memorizzazione nella cache dei volumi, verifica il supporto per il tuo ambiente, l'accesso alla rete, l'accesso e il browser Web.</block>
+  <block id="783400bbca91266f6f919a9d8401a790" category="doc">Prerequisiti per la memorizzazione nella cache del volume</block>
+  <block id="84804abf3404a430e85ae3299587a6b0" category="paragraph">Per iniziare, verifica la prontezza del tuo ambiente operativo, dell'accesso, dell'accesso alla rete e del browser web.</block>
+  <block id="56df6cb020427fdcc7046462d2a74484" category="paragraph">Per utilizzare la memorizzazione nella cache dei volumi, è necessario assicurarsi che l'ambiente soddisfi tutti i requisiti.</block>
+  <block id="9e25219bfef39dc2d94805b599244f8d" category="list-text">ONTAP 9.8 e versioni successive</block>
+  <block id="6bc8ee47a10f11a50d1b88f0e1669fee" category="list-text">Autorizzazioni ONTAP dell'amministratore del cluster</block>
+  <block id="bb2db94d282af73e9408b243f1158770" category="list-text">Intercluster LIF sui cluster</block>
+  <block id="b0bec4e694abbf7d9f8eab802a66698d" category="list-text">Nella console NetApp :</block>
+  <block id="69b085a23d3ed85c84455b9288792bf2" category="inline-link">Avvio rapido di BlueXP</block>
+  <block id="91e534d044a3d9c6a1c8575f89e73c9b" category="inline-link">Scopri di più sugli agenti della console</block>
+  <block id="e2a5fa776bf988cfa9dbfb9f02da9619" category="list-text">L'agente Console deve essere configurato nella console NetApp .  Tutti i cluster di origine e di destinazione devono trovarsi sullo stesso agente Console. Fare riferimento al<block ref="4b1866f17dc6bd66f88d9d6839084df6" category="inline-link-rx"></block> E<block ref="be47360914e9c5a32b9a06216cb3cec0" category="inline-link-rx"></block> .</block>
+  <block id="1644e8c8713b99aa2a509321e1b03ba5" category="list-text">L'ambiente di lavoro deve essere predisposto.</block>
+  <block id="c58af1fa22ce44dd1a1025cb0f4b05f2" category="list-text">I cluster devono essere aggiunti nell'ambiente di lavoro di destinazione e in stato ON o degradato.</block>
+  <block id="70409a142107b4016b7ef004178c29d8" category="inline-link">Requisiti della console NetApp</block>
+  <block id="bed786cbf4ab55e1445650548602862c" category="list-text">Requisiti standard della console NetApp . Fare riferimento a<block ref="2fae4ce1ffb16d5bf2c9555180b86caf" category="inline-link-rx"></block> .</block>
+  <block id="fe8a9d57951a636664c54f5cf14a06e1" category="summary">Inizia a usare la memorizzazione nella cache dei volumi in pochi passaggi.</block>
+  <block id="cd7075003264e6a8e9370e8f19275492" category="doc">Avvio rapido per la memorizzazione nella cache del volume</block>
+  <block id="7f9fe4f52eb64124e68264f256f36881" category="paragraph">Ecco una panoramica dei passaggi necessari per iniziare a utilizzare la memorizzazione nella cache dei volumi. I link presenti in ogni passaggio ti conducono a una pagina che fornisce maggiori dettagli.</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">Uno</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>Rivedere i prerequisiti</block>
+  <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">Assicurati che il tuo ambiente soddisfi questi requisiti</block>
+  <block id="8aa6fa53d4ea5eb2e6cf7864a0814952" category="paragraph"><block ref="6d00d645d4db26355e2a4b6e5ebcd192" category="inline-link-macro-rx"></block> .</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">Due</block>
+  <block id="774adf0706578efe4197e79fc434cdf3" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>Imposta la memorizzazione nella cache del volume</block>
+  <block id="c5265a2111872d8a36af35ac9df5bd6a" category="inline-link-macro">Imposta la memorizzazione nella cache di vlume</block>
+  <block id="35b195de89ecea9ff719e6aa5e3eeccf" category="paragraph"><block ref="1969983886bb9c72f05c6ce62e307cc3" category="inline-link-macro-rx"></block> .</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">Tre</block>
+  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block>Cosa succederà adesso?</block>
+  <block id="d2b78bb589121de795035bc504cc0150" category="paragraph">Ecco cosa potresti fare ora.</block>
+  <block id="15a05e063d4c5c1c840a1358ea5e2f1a" category="inline-link-macro">Crea una cache</block>
+  <block id="6d8c022b864e0ac2a0521e01b0a148ef" category="list-text"><block ref="08994cd66141241fcfdbc13ed0e82eff" category="inline-link-macro-rx"></block> .</block>
+  <block id="36d2dfb130cc56d5eda3b8749b5bd6df" category="inline-link-macro">Gestisci una cache, modifica una cache, ridimensiona una cache o elimina una cache</block>
+  <block id="7feb77d14601611c1fbc66f8aea36e7b" category="list-text"><block ref="06832ac35077da45cc1af571e236bfcd" category="inline-link-macro-rx"></block> .</block>
+  <block id="d5478d6eec7f9909d140c5c5dc7b8049" category="inline-link-macro">Monitorare le operazioni di memorizzazione nella cache del volume</block>
+  <block id="3a4d754d0c4ec1d71c54dc063043088b" category="list-text"><block ref="1f92bc5779f2f7dc3b853d4a9f3506c9" category="inline-link-macro-rx"></block> .</block>
+  <block id="8272cbc57a0f666d4fb3501b0d6d1f56" category="summary">Per utilizzare la memorizzazione nella cache del volume, è necessario eseguire alcuni passaggi per configurarla.</block>
+  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">prerequisiti</block>
+  <block id="28afabf1cd8784eb84b3926b994169ea" category="list-text">Revisione<block ref="c6b48cc2d47e2f989af724d3298e55c0" category="inline-link-macro-rx"></block> per garantire che il tuo ambiente sia pronto.</block>
+  <block id="3847705074d8f4f4a3ad3b8e472e4a7c" category="list-text">Creare un agente Console.</block>
+  <block id="6933f6b443b103ffc6df5f0c40cf6114" category="list-text">Creare sistemi in grado di supportare la memorizzazione nella cache dei volumi.</block>
+  <block id="01f52dd5b9c3fcf42a482c9c21f24432" category="section-title">Creare un agente Console nella console NetApp</block>
+  <block id="f7b8941f69c5e6de95c2c5651f12e340" category="paragraph">Il passaggio successivo consiste nel creare un agente Console nella console NetApp .</block>
+  <block id="368b569705fc2b4a6ccbd31e2dddc770" category="inline-link">Come creare un agente Console</block>
+  <block id="3a0d8363f9a5b119c844e8e4b624f5d8" category="paragraph">Per creare un agente Console prima di utilizzare la memorizzazione nella cache del volume, fare riferimento alla documentazione di NetApp Console che descrive<block ref="2d846d70ffa1be89a4045faa3f83584f" category="inline-link-rx"></block> .</block>
+  <block id="f46a3c01f849eec231a129ff7cb55f02" category="section-title">Creare sistemi</block>
+  <block id="2dc0e2079607a1629e0ad455c80fed71" category="paragraph">Se non lo hai già fatto, devi creare i sistemi per la sorgente e la destinazione.</block>
+  <block id="5df55e7de34e04e3fbd5d9ffd4e44939" category="inline-link">Creare un sistema Amazon FSx per ONTAP</block>
+  <block id="16294c836385c080dfc02e110cdfc625" category="list-text"><block ref="16294c836385c080dfc02e110cdfc625" category="inline-link-rx"></block></block>
+  <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">Avvia Cloud Volumes ONTAP in AWS</block>
+  <block id="5fc68dd6c2f9e8f9867008288922972c" category="list-text"><block ref="5fc68dd6c2f9e8f9867008288922972c" category="inline-link-rx"></block></block>
+  <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">Avvia Cloud Volumes ONTAP in Azure</block>
+  <block id="382c836de95fd7a0d956bd916d408106" category="list-text"><block ref="382c836de95fd7a0d956bd916d408106" category="inline-link-rx"></block></block>
+  <block id="ce3503849689227dd8014f8ed3f5cb5e" category="inline-link">Avvia Cloud Volumes ONTAP in GCP</block>
+  <block id="b1fc335b745b5be1ddedded19d077bf9" category="list-text"><block ref="b1fc335b745b5be1ddedded19d077bf9" category="inline-link-rx"></block></block>
+  <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">Aggiungere sistemi Cloud Volumes ONTAP esistenti</block>
+  <block id="c10b8a77856c1097f8b3038f1bfab45b" category="list-text"><block ref="c10b8a77856c1097f8b3038f1bfab45b" category="inline-link-rx"></block></block>
+  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">Scopri i cluster ONTAP</block>
+  <block id="49aaf65c31a811a37b2627a951f6f6d2" category="list-text"><block ref="49aaf65c31a811a37b2627a951f6f6d2" category="inline-link-rx"></block></block>
+  <block id="ff45d71e69fb5930de79de7c94326d7b" category="doc">Memorizzazione nella cache del volume</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Note legali</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Le note legali forniscono accesso a dichiarazioni di copyright, marchi commerciali, brevetti e altro ancora.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marchi</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, il logo NETAPP e i marchi elencati nella pagina Marchi NetApp sono marchi di NetApp, Inc. Altri nomi di aziende e prodotti possono essere marchi dei rispettivi proprietari.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevetti</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Un elenco aggiornato dei brevetti di proprietà di NetApp è disponibile all'indirizzo:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politica sulla riservatezza</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">I file di avviso forniscono informazioni sui diritti d'autore e sulle licenze di terze parti utilizzati nel software NetApp .</block>
+  <block id="84fa68bdcea2ad5e54b20ac851705b19" category="summary">Le limitazioni note identificano piattaforme, dispositivi o funzioni che non sono supportati da questa versione del servizio o che non interagiscono correttamente con esso.</block>
+  <block id="b0869ac252941f2bb0a66e4217373fe7" category="doc">Limitazioni note della memorizzazione nella cache del volume</block>
+  <block id="b4c367fe6d90350394d4c683b14a2b68" category="section-title">Limitazione nella copia delle regole di policy di esportazione della cache</block>
+  <block id="dfa00fa3b7488ec5be323d610b3be4c9" category="paragraph">Le regole dei criteri di esportazione della cache non vengono copiate nel volume della cache nelle seguenti situazioni:</block>
+  <block id="052790f586ecc27268f7e78d289d66ec" category="list-text">Quando il sistema del volume di origine è Amazon FSx for NetApp ONTAP o Cloud Volumes ONTAP e il volume della cache è ONTAP 9.10.1 o precedente.</block>
+  <block id="63dfadbcf19bd5ee84631f7d0fa52f99" category="list-text">Quando il sistema del volume di origine è una qualsiasi versione di ONTAP e il volume della cache è ONTAP 9.10.1 o precedente.</block>
+  <block id="55f772a03fa49d374be9b2bcd7e6a76b" category="paragraph">Soluzione alternativa: è necessario creare manualmente le regole per il volume della cache.</block>
+  <block id="fa3ee1290aad0baa7d9f67b33fe9f498" category="section-title">La creazione della cache non riesce per le VM di archiviazione con lo stesso nome</block>
+  <block id="cdfacc99848abb76b047557a358ab3ce" category="paragraph">Se i cluster di origine e di destinazione utilizzano VM di archiviazione con lo stesso nome, la cache non viene creata.</block>
+  <block id="e5b7c58c64229256ed7ed7b7531a8fb8" category="paragraph">Soluzione alternativa: utilizzare nomi diversi per le VM di archiviazione di origine e di destinazione.</block>
+  <block id="302e36c6612d7b1f818aca18bb48cd98" category="section-title">Ritardo nella visualizzazione di policy di esportazione nuove o modificate di recente</block>
+  <block id="5f46a75755796ecf8fe20992381241f3" category="paragraph">Quando si crea una cache, potrebbe non essere possibile visualizzare nell'elenco un criterio di esportazione creato o modificato di recente.</block>
+  <block id="6cd32040ccd84f982a76c0c1d708c66c" category="paragraph">Soluzione alternativa: riprovare tra qualche minuto.</block>
+  <block id="273053fb1b487fc052d1da115c69e3cd" category="section-title">La creazione della cache non riesce quando la destinazione ha abilitato solo il protocollo CIFS</block>
+  <block id="1951eec8941c43bd77fbd0a382f438c5" category="paragraph">La creazione della cache non riesce se il cluster di origine o di destinazione ha ONTAP 9.10.1 o versione precedente e il cluster di destinazione ha abilitato solo il protocollo CIFS.</block>
+  <block id="19e9fe5f7892297d60443124d55cc602" category="paragraph">Soluzione alternativa: utilizzare un cluster di destinazione che esegue ONTAP 9.11.1 o versione successiva oppure con entrambi i protocolli CIFS e NFS configurati.</block>
+  <block id="334fb6e3ccc3d68c66ae1be5bb08809f" category="summary">La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.</block>
+  <block id="cfd3e678741802a00293f0cccac9446c" category="doc">Novità nella memorizzazione nella cache dei volumi</block>
+  <block id="802add3126540762ef1a9360d0a57d61" category="paragraph">Scopri le novità nella memorizzazione nella cache dei volumi.</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06 ottobre 2025</block>
+  <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">04 giugno 2023</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp fornisce supporto per BlueXP in vari modi. Sono disponibili ampie opzioni di auto-assistenza gratuite 24 ore su 24, 7 giorni su 7, come articoli della knowledge base (KB) e un forum della community. La registrazione al supporto include supporto tecnico remoto tramite ticket web.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Ottieni aiuto</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp fornisce supporto per BlueXP e i suoi servizi cloud in diversi modi. Sono disponibili ampie opzioni di supporto autonomo gratuite 24 ore su 24, 7 giorni su 7, come articoli della knowledge base (KB) e un forum della community. La registrazione al supporto include supporto tecnico remoto tramite ticket web.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Ottieni supporto per un servizio file di un provider cloud</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Per assistenza tecnica relativa a un servizio file di un provider cloud, alla sua infrastruttura o a qualsiasi soluzione che utilizzi il servizio, fare riferimento alla sezione "Ottenere assistenza" nella documentazione BlueXP per quel prodotto.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx per ONTAP</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Per ricevere supporto tecnico specifico per BlueXP e le sue soluzioni e servizi di archiviazione, utilizzare le opzioni di supporto descritte di seguito.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilizzare opzioni di auto-supporto</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Queste opzioni sono disponibili gratuitamente, 24 ore al giorno, 7 giorni alla settimana:</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentazione</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentazione BlueXP che stai visualizzando attualmente.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base di conoscenza</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Cerca nella knowledge base BlueXP per trovare articoli utili per la risoluzione dei problemi.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Comunità</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Unisciti alla community BlueXP per seguire le discussioni in corso o crearne di nuove.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Crea un caso con il supporto NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Oltre alle opzioni di supporto autonomo sopra descritte, puoi collaborare con uno specialista del supporto NetApp per risolvere eventuali problemi dopo aver attivato il supporto.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">Prima di iniziare</block>
+  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">Scopri come gestire le credenziali associate al tuo accesso BlueXP</block>
+  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">Per utilizzare la funzionalità *Crea un caso*, devi prima associare le credenziali del sito di supporto NetApp al tuo accesso BlueXP .<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block> .</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Se stai aprendo un caso per un sistema ONTAP che ha un numero di serie, il tuo account NSS deve essere associato al numero di serie di quel sistema.</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">In BlueXP, seleziona *Aiuto &gt; Supporto*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Nella pagina *Risorse*, seleziona una delle opzioni disponibili in Supporto tecnico:</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Seleziona *Chiamaci* se desideri parlare con qualcuno al telefono. Verrai indirizzato a una pagina su netapp.com in cui sono elencati i numeri di telefono che puoi chiamare.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Seleziona *Crea un caso* per aprire un ticket con uno specialista del supporto NetApp :</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Servizio*: seleziona il servizio a cui è associato il problema. Ad esempio, BlueXP quando è specifico di un problema di supporto tecnico con flussi di lavoro o funzionalità all'interno del servizio.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Ambiente di lavoro*: se applicabile all'archiviazione, selezionare * Cloud Volumes ONTAP* o *On-Prem* e quindi l'ambiente di lavoro associato.</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">L'elenco degli ambienti di lavoro rientra nell'ambito dell'organizzazione (o account), del progetto (o area di lavoro) e del connettore BlueXP selezionati nel banner superiore del servizio.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Priorità del caso*: scegli la priorità del caso, che può essere Bassa, Media, Alta o Critica.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Per saperne di più su queste priorità, passa il mouse sull'icona informativa accanto al nome del campo.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Descrizione del problema*: fornisci una descrizione dettagliata del problema, inclusi eventuali messaggi di errore o passaggi per la risoluzione dei problemi eseguiti.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Indirizzi email aggiuntivi*: inserisci altri indirizzi email se desideri informare qualcun altro di questo problema.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Allegato (facoltativo)*: carica fino a cinque allegati, uno alla volta.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Gli allegati sono limitati a 25 MB per file. Sono supportate le seguenti estensioni di file: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx e csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Uno screenshot del modulo Crea un caso che consente di creare un caso con il supporto NetApp .</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Dopo aver finito</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Apparirà una finestra pop-up con il numero del tuo caso di supporto. Uno specialista del supporto NetApp esaminerà il tuo caso e ti contatterà al più presto.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Per una cronologia dei tuoi casi di supporto, puoi selezionare *Impostazioni &gt; Cronologia* e cercare le azioni denominate "crea caso di supporto". Un pulsante all'estrema destra consente di espandere l'azione per visualizzarne i dettagli.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di creare un caso:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"Non sei autorizzato a creare un caso contro il servizio selezionato"</block>
+  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">Questo errore potrebbe significare che l'account NSS e la società registrata a cui è associato non sono la stessa società registrata per il numero di serie dell'account BlueXP (ad esempio 960xxxx) o il numero di serie dell'ambiente di lavoro. Puoi richiedere assistenza utilizzando una delle seguenti opzioni:</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilizza la chat interna al prodotto</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Invia un caso non tecnico a<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Gestisci i tuoi casi di supporto (anteprima)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">Puoi visualizzare e gestire i casi di supporto attivi e risolti direttamente da BlueXP. Puoi gestire i casi associati al tuo account NSS e alla tua azienda.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">La gestione dei casi è disponibile in anteprima. Abbiamo intenzione di perfezionare questa esperienza e aggiungere miglioramenti nelle prossime versioni. Inviaci il tuo feedback tramite la chat interna al prodotto.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Notare quanto segue:</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">La dashboard di gestione dei casi nella parte superiore della pagina offre due visualizzazioni:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">La vista a sinistra mostra il totale dei casi aperti negli ultimi 3 mesi dall'account NSS utente fornito.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">La vista a destra mostra il totale dei casi aperti negli ultimi 3 mesi a livello aziendale in base al tuo account NSS utente.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">I risultati nella tabella riflettono i casi correlati alla vista selezionata.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">È possibile aggiungere o rimuovere colonne di interesse e filtrare il contenuto di colonne come Priorità e Stato. Altre colonne forniscono solo funzionalità di ordinamento.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Per maggiori dettagli, vedere i passaggi riportati di seguito.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">A livello di singolo caso, offriamo la possibilità di aggiornare le note del caso o di chiudere un caso che non sia già nello stato Chiuso o In attesa di chiusura.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Seleziona *Gestione casi* e, se richiesto, aggiungi il tuo account NSS a BlueXP.</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">La pagina *Gestione casi* mostra i casi aperti relativi all'account NSS associato al tuo account utente BlueXP . Si tratta dello stesso account NSS che appare in cima alla pagina *Gestione NSS*.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Facoltativamente, modifica le informazioni visualizzate nella tabella:</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">In *Casi dell'organizzazione*, seleziona *Visualizza* per visualizzare tutti i casi associati alla tua azienda.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifica l'intervallo di date scegliendo un intervallo di date esatto o un intervallo di tempo diverso.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Uno screenshot dell'opzione sopra la tabella nella pagina Gestione casi che consente di scegliere un intervallo di date esatto oppure gli ultimi 7 giorni, 30 giorni o 3 mesi.</block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtra il contenuto delle colonne.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Uno screenshot dell'opzione filtro nella colonna Stato che consente di filtrare i casi che corrispondono a uno stato specifico, ad esempio Attivo o Chiuso.</block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">L'icona più che appare nella tabella</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Modifica le colonne che appaiono nella tabella selezionando<block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> e quindi scegli le colonne che desideri visualizzare.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Uno screenshot che mostra le colonne che puoi visualizzare nella tabella.</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Un'icona con tre punti che appare nell'ultima colonna della tabella</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">Gestisci un caso esistente selezionando<block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> e selezionando una delle opzioni disponibili:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Visualizza caso*: visualizza i dettagli completi su un caso specifico.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Aggiorna note sul caso*: fornisci ulteriori dettagli sul tuo problema o seleziona *Carica file* per allegare fino a un massimo di cinque file.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Chiudi caso*: fornisci i dettagli sul motivo per cui stai chiudendo il caso e seleziona *Chiudi caso*.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Uno screenshot che mostra le azioni che è possibile intraprendere dopo aver selezionato il menu nell'ultima colonna della tabella.</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Prima di poter aprire un caso di supporto con il supporto tecnico NetApp , è necessario aggiungere un account NetApp Support Site a BlueXP e quindi registrarsi per ricevere supporto.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registrati per ricevere supporto</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">Per ricevere supporto tecnico specifico per BlueXP e le sue soluzioni e servizi di archiviazione è necessaria la registrazione al supporto. La registrazione del supporto è inoltre richiesta per abilitare i flussi di lavoro chiave per i sistemi Cloud Volumes ONTAP .</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">La registrazione per il supporto non abilita il supporto NetApp per un servizio file del provider cloud. Per assistenza tecnica relativa a un servizio file di un provider cloud, alla sua infrastruttura o a qualsiasi soluzione che utilizzi il servizio, fare riferimento alla sezione "Ottenere assistenza" nella documentazione BlueXP per quel prodotto.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Panoramica della registrazione del supporto</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Per attivare il diritto al sostegno sono previste due modalità di registrazione:</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">Registrando il numero di serie del tuo account BlueXP (il numero di serie di 20 cifre 960xxxxxxxxx che si trova nella pagina Risorse di supporto in BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Questo funge da ID di abbonamento unico per qualsiasi servizio all'interno di BlueXP. Ogni abbonamento al supporto a livello di account BlueXP deve essere registrato.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrazione dei numeri di serie di Cloud Volumes ONTAP associati a un abbonamento nel marketplace del tuo provider cloud (si tratta di numeri di serie a 20 cifre 909201xxxxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Questi numeri di serie sono comunemente denominati _numeri di serie PAYGO_ e vengono generati da BlueXP al momento della distribuzione Cloud Volumes ONTAP .</block>
+  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">La registrazione di entrambi i tipi di numeri di serie consente funzionalità quali l'apertura di ticket di supporto e la generazione automatica di casi. La registrazione si completa aggiungendo gli account NetApp Support Site (NSS) a BlueXP come descritto di seguito.</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">Registra BlueXP per il supporto NetApp</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">Per registrarsi per ricevere supporto e attivare il diritto al supporto, un utente della tua organizzazione (o account) BlueXP deve associare un account NetApp Support Site al proprio login BlueXP . La modalità di registrazione per l'assistenza NetApp varia a seconda che si disponga già di un account NetApp Support Site (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente esistente con un account NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Se sei un cliente NetApp con un account NSS, devi semplicemente registrarti per ricevere supporto tramite BlueXP.</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">Nell'angolo in alto a destra della console BlueXP , seleziona l'icona Impostazioni e seleziona *Credenziali*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Selezionare *Credenziali utente*.</block>
+  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Selezionare *Aggiungi credenziali NSS* e seguire la richiesta di autenticazione del sito di supporto NetApp (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Per confermare che il processo di registrazione è andato a buon fine, seleziona l'icona Aiuto e seleziona *Supporto*.</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">La pagina *Risorse* dovrebbe mostrare che la tua organizzazione BlueXP è registrata per il supporto.</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">Uno screenshot che mostra il numero di serie dell'account, una casella di controllo verde e il testo Registrato per supporto.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">Tieni presente che gli altri utenti BlueXP non vedranno lo stesso stato di registrazione del supporto se non hanno associato un account del sito di supporto NetApp al loro accesso BlueXP . Tuttavia, ciò non significa che la tua organizzazione BlueXP non sia registrata per il supporto. Se almeno un utente dell'organizzazione ha seguito questi passaggi, la tua organizzazione è stata registrata.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Cliente esistente ma nessun account NSS</block>
+  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">Se sei un cliente NetApp esistente con licenze e numeri di serie esistenti ma _nessun_ account NSS, devi creare un account NSS e associarlo al tuo accesso BlueXP .</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Modulo di registrazione utente del sito di supporto NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Crea un account del sito di supporto NetApp completando il<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Assicurati di selezionare il livello utente appropriato, che in genere è *Cliente NetApp /Utente finale*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Assicurati di copiare il numero di serie dell'account BlueXP (960xxxx) utilizzato sopra per il campo del numero di serie. Ciò velocizzerà l'elaborazione dell'account.</block>
+  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">Associa il tuo nuovo account NSS al tuo accesso BlueXP completando i passaggi indicati di seguito<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Novità assoluta per NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Se sei un nuovo utente NetApp e non hai un account NSS, segui i passaggi indicati di seguito.</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">Nell'angolo in alto a destra della console BlueXP , seleziona l'icona Aiuto e seleziona *Supporto*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Uno screenshot del menu Aiuto in cui Supporto è la prima opzione elencata</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Individua il numero di serie del tuo ID account nella pagina di registrazione del supporto.</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Sito di registrazione del supporto NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Vai a<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> e seleziona *Non sono un cliente NetApp registrato*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Compila i campi obbligatori (quelli contrassegnati da asterischi rossi).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Nel campo *Linea di prodotti*, seleziona *Cloud Manager* e poi seleziona il tuo fornitore di fatturazione applicabile.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copia il numero di serie del tuo account dal passaggio 2 sopra, completa il controllo di sicurezza e conferma di aver letto l'Informativa globale sulla privacy dei dati di NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Per finalizzare questa transazione sicura, verrà inviata immediatamente un'e-mail alla casella di posta indicata. Se l'e-mail di convalida non arriva entro pochi minuti, assicurati di controllare la cartella spam.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Conferma l'azione dall'interno dell'e-mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">La conferma invia la richiesta a NetApp e ti consiglia di creare un account sul sito di supporto NetApp .</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Assicurati di copiare il numero di serie dell'account (960xxxx) utilizzato sopra per il campo del numero di serie. Ciò velocizzerà l'elaborazione.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp dovrebbe contattarti durante questo processo. Si tratta di un esercizio di onboarding una tantum per i nuovi utenti.</block>
+  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Una volta ottenuto l'account del sito di supporto NetApp , associalo al tuo accesso BlueXP completando i passaggi indicati di seguito<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Associare le credenziali NSS per il supporto Cloud Volumes ONTAP</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">L'associazione delle credenziali del sito di supporto NetApp alla tua organizzazione BlueXP è necessaria per abilitare i seguenti flussi di lavoro chiave per Cloud Volumes ONTAP:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registrazione dei sistemi Cloud Volumes ONTAP a consumo per il supporto</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Per attivare il supporto per il tuo sistema e accedere alle risorse di supporto tecnico NetApp è necessario fornire il tuo account NSS.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Distribuzione di Cloud Volumes ONTAP quando si utilizza la propria licenza (BYOL)</block>
+  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">È necessario fornire il proprio account NSS affinché BlueXP possa caricare la chiave di licenza e abilitare l'abbonamento per il periodo acquistato. Ciò include aggiornamenti automatici per i rinnovi dei termini.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Aggiornamento del software Cloud Volumes ONTAP all'ultima versione</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">L'associazione delle credenziali NSS alla tua organizzazione BlueXP è diversa dall'associazione dell'account NSS all'accesso di un utente BlueXP .</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Queste credenziali NSS sono associate al tuo ID organizzazione BlueXP specifico. Gli utenti che appartengono all'organizzazione BlueXP possono accedere a queste credenziali da *Supporto &gt; Gestione NSS*.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Se disponi di un account a livello cliente, puoi aggiungere uno o più account NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Se disponi di un account partner o rivenditore, puoi aggiungere uno o più account NSS, ma non possono essere aggiunti insieme agli account a livello di cliente.</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Selezionare *Gestione NSS &gt; Aggiungi account NSS*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Quando richiesto, seleziona *Continua* per essere reindirizzato alla pagina di accesso di Microsoft.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utilizza Microsoft Entra ID come provider di identità per i servizi di autenticazione specifici per il supporto e le licenze.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Nella pagina di accesso, inserisci l'indirizzo email e la password registrati sul sito di supporto NetApp per eseguire il processo di autenticazione.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Queste azioni consentono a BlueXP di utilizzare il tuo account NSS per attività quali download di licenze, verifica di aggiornamenti software e future registrazioni di supporto.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">L'account NSS deve essere un account a livello di cliente (non un account ospite o temporaneo). È possibile avere più account NSS a livello di cliente.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Può esserci un solo account NSS se tale account è un account a livello di partner. Se provi ad aggiungere account NSS a livello di cliente ed esiste già un account a livello di partner, riceverai il seguente messaggio di errore:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"Il tipo di cliente NSS non è consentito per questo account poiché sono già presenti utenti NSS di tipo diverso."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Lo stesso vale se si dispone già di account NSS a livello di cliente e si tenta di aggiungere un account a livello di partner.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Dopo aver effettuato l'accesso, NetApp memorizzerà il nome utente NSS.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Un'icona di tre punti orizzontali</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Si tratta di un ID generato dal sistema che corrisponde al tuo indirizzo email. Nella pagina *Gestione NSS*, puoi visualizzare la tua email da<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Se hai bisogno di aggiornare i token delle tue credenziali di accesso, c'è anche un'opzione *Aggiorna credenziali* in<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Utilizzando questa opzione ti verrà richiesto di effettuare nuovamente l'accesso. Si noti che il token per questi account scade dopo 90 giorni. Verrà pubblicata una notifica per avvisarti di ciò.</block>
+  <block id="cb949e5e30304d14de6d1ee56dcd3973" category="doc">Crea una cache utilizzando la memorizzazione nella cache del volume</block>
+  <block id="c83432b66d6c3940b6259b90efd83298" category="paragraph">La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi memorizzati nella cache sono ideali per carichi di lavoro ad alta intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.  È possibile creare la memorizzazione nella cache dei volumi tra Amazon FSx for ONTAP, Cloud Volumes ONTAP e ONTAP locale con uno o più volumi di origine dal sistema di origine come origine della cache.  Quindi si sceglie la macchina virtuale di archiviazione per i volumi della cache.</block>
+  <block id="169359b747a97bfd7be9db6b4d0d4205" category="paragraph">Il volume memorizzato nella cache può trovarsi nello stesso cluster o in un cluster diverso da quello del volume di origine.  I volumi selezionati per la memorizzazione nella cache devono appartenere alla stessa VM di archiviazione e le VM di archiviazione devono utilizzare gli stessi protocolli.</block>
+  <block id="40d1cd0fd7b32697fca346c77e81cf33" category="admonition">Se i volumi non sono idonei per la memorizzazione nella cache, vengono visualizzati in grigio e non è possibile selezionarli.</block>
+  <block id="84c72eda7eeb786f006b0900a7567aaa" category="paragraph">È possibile immettere la dimensione dei volumi memorizzati nella cache come percentuale della dimensione del volume di origine.</block>
+  <block id="597e414794682881f404bfa784ae39ec" category="admonition">L'IPSpace utilizzato dal volume memorizzato nella cache dipende dall'IPSpace utilizzato dalla VM di archiviazione di origine.</block>
+  <block id="517fe4990606388caa9919da8eec995a" category="paragraph">Il nome del volume memorizzato nella cache utilizza un suffisso di<block ref="2688da00ef40aea51d0332942162f4a3" prefix=" " category="inline-code"></block> aggiunto al nome del volume originale.</block>
+  <block id="da3e6c365dbf585e680eb8b81eca08c1" category="section-title">Passaggi dalla landing page della memorizzazione nella cache del volume</block>
+  <block id="83046549bdfbacafb1888d0467d8acc4" category="list-text">Accedi alla console NetApp .</block>
+  <block id="c0e9cf3396419d44afe6a2a9716d16ce" category="list-text">Selezionare *Mobilità* &gt; *Memorizzazione nella cache del volume* dal menu di navigazione a sinistra.</block>
+  <block id="d76534bd050ff0fb764f735590f47e67" category="paragraph">Verrai indirizzato alla pagina Dashboard della memorizzazione nella cache del volume.  Quando si inizia a utilizzare l'opzione di memorizzazione nella cache del volume, è necessario aggiungere le informazioni sulla cache.  Successivamente, viene visualizzata la Dashboard, che mostra i dati sulle cache.</block>
+  <block id="33022033ab6ef074831b51e61f9f7279" category="inline-link">Avvio rapido della console NetApp</block>
+  <block id="612e60a0d9bf1ad494a1c96d0cfbb20b" category="admonition">Se non hai ancora configurato un agente NetApp Console, al posto di *Aggiungi una cache* viene visualizzata l'opzione *Aggiungi un agente Console*.  In questo caso, è necessario prima configurare l'agente Console.  Fare riferimento al<block ref="4af1c1682eadbae660c367784adca2e0" category="inline-link-rx"></block> .</block>
+  <block id="6eadae9a38db2a500243d05cf7225e2e" category="inline-image-macro">la landing page per la memorizzazione nella cache del volume</block>
+  <block id="382f9d7006d270e738cb792422ddc921" category="paragraph"><block ref="382f9d7006d270e738cb792422ddc921" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b6818d152d5cb9dea3c8907b154bd8a8" category="list-text">Seleziona *Aggiungi una cache*.</block>
+  <block id="9a4dcefe0ee384ac688c636910b45efa" category="list-text">Nella pagina Dati cache, seleziona la cache di origine e di destinazione del sistema e seleziona *Avvia procedura guidata di memorizzazione nella cache*.</block>
+  <block id="9e0cbc47bdb380a02c337c21c69cdc2b" category="list-text">Nella pagina Configura le tue cache, seleziona il volume o i volumi che desideri memorizzare nella cache.</block>
+  <block id="09fd28ad516783a6436e73dab10d6a64" category="admonition">È possibile selezionare fino a 50 volumi.</block>
+  <block id="ec2f9f6a3579c539c02d2b9771c2e706" category="list-text">Scorrere la pagina verso il basso per apportare ulteriori modifiche ai dettagli della VM o alle dimensioni del volume.</block>
+  <block id="9ed9532712efe61b4d49f6ee57e4e286" category="list-text">Immettere la dimensione dei volumi della cache come percentuale della dimensione del volume di origine.</block>
+  <block id="3e6ea85d3cbf80a51076780cb179a997" category="admonition">Una buona regola pratica è che la dimensione del volume della cache dovrebbe essere circa il 15% della dimensione del volume di origine.</block>
+  <block id="5af43b0eab69da24bc5edcd7ac5f1937" category="list-text">Selezionare la casella *Accesso cache* per replicare le regole dei criteri di esportazione NFS e la configurazione della condivisione SMB/CIFS dal volume di origine al volume della cache di destinazione.</block>
+  <block id="c21540a74f6806b42af13022fc111de8" category="paragraph">Quindi le regole dei criteri di esportazione NFS e la condivisione SMB/CIFS nel volume di origine verranno replicate nel volume della cache.  Se il protocollo SMB/CIFS non è abilitato sulla VM di archiviazione cache, la condivisione SMB/CIFS non verrà replicata.</block>
+  <block id="220be7f31b8f92d82ed95eaf85ccf0ec" category="list-text">Facoltativamente, immettere il prefisso del nome della cache.</block>
+  <block id="6b9f55d4a5933f878016b2b86fd6cd1b" category="paragraph">Il suffisso di<block ref="2688da00ef40aea51d0332942162f4a3" prefix=" " category="inline-code"></block> viene aggiunto al nome nel formato:<block ref="edd672ffe3522f8c8dfc35e6b57e3ae7" prefix=" " category="inline-code"></block></block>
+  <block id="152c1205ce3ae813313f8a14cf8eb321" category="list-text">Seleziona *Crea cache*.</block>
+  <block id="fda3cce0ad94905cc7b862e48ea5b42f" category="paragraph">La nuova cache viene visualizzata nell'elenco Memorizzazione nella cache.  Verrà visualizzato il nome del volume della cache<block ref="2688da00ef40aea51d0332942162f4a3" prefix=" " category="inline-code"></block> come suffisso al nome del volume sorgente.</block>
+  <block id="1a594c580595e3ee20d748a365fef6b2" category="list-text">Per visualizzare lo stato di avanzamento dell'operazione, dal menu NetApp Console, selezionare *Amministrazione* &gt; *Audit*.</block>
+  <block id="8269bed4632d147abc4be61b23aac8cf" category="section-title">Passaggi dalla pagina Sistemi della console NetApp</block>
+  <block id="01287fab159faf3ef13872bbbba03167" category="list-text">Dalla pagina Sistemi console NetApp , selezionare l'ambiente di lavoro.</block>
+  <block id="2988cd54e7f1bab926c1e27b0d343509" category="inline-image-macro">funzionalità di trascinamento della selezione per creare la cache</block>
+  <block id="611242e7b2f5e67d2d0f069f8b963154" category="list-text">Selezionare il sistema sorgente e trascinarlo nella destinazione.<block ref="43270a96c615e76b6743757f308ade69" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d85bdc4472b38b29e128ffbb6d19168e" category="list-text">Selezionare *Memorizzazione nella cache del volume*.</block>
+  <block id="eb3419d769eb00d7ba2ca8edb7c0e426" category="paragraph">In questo modo viene creato un volume di cache dall'origine alla destinazione.</block>
+  <block id="8d7482a9da637c0f0bd4285bb630335c" category="list-text">Nel riquadro destro, nella casella delle opzioni Memorizzazione nella cache, seleziona *Aggiungi*.</block>
+  <block id="73e208b68018b847762d82de940a4e26" category="inline-image-macro">pop-up dei dati della cache</block>
+  <block id="9da3caf8f0b3db72ac3ea62b14519fc6" category="list-text">Nella pagina Dati cache, seleziona il sistema che desideri memorizzare nella cache e seleziona *Avvia procedura guidata cache*.<block ref="d510d73c5ccacdf7416f6e10c36fb683" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5c334f4127a136baabcc22d3670432c3" category="inline-image-macro">finestra per l'aggiunta di cache</block>
+  <block id="a634ad960f381760e39578135c141f12" category="paragraph"><block ref="a634ad960f381760e39578135c141f12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="666d3c7d6ea7cfc7ea6e6e6faed1cdd3" category="doc">Gestire una cache</block>
+  <block id="fc66df463880523a60b999aff387392a" category="paragraph">È possibile modificare una cache, cambiare la politica di esportazione, ridimensionare una cache ed eliminare una cache.</block>
+  <block id="8068c771c79b687b4eb16a0852ccf0b4" category="paragraph">Con la memorizzazione nella cache dei volumi è possibile raggiungere i seguenti obiettivi:</block>
+  <block id="00ac51c16cde551605ec6cf0d3b91416" category="list-text">Visualizza i dettagli della cache.</block>
+  <block id="06fc18e5e4898299f1a818098e8e94c7" category="list-text">Assegnare una policy di esportazione diversa a una cache.</block>
+  <block id="8ba82ac05e167f153ba79532f2f1980a" category="list-text">Modifica la memorizzazione nella cache di un volume e cambiane le dimensioni, ecc. La modifica offrirà l'opzione di visualizzare e modificare altre proprietà e altre proprietà verranno aggiunte in modifica nelle prossime versioni.</block>
+  <block id="b8c0701847f6b5a25da10d75bdbcba97" category="list-text">Ridimensiona una cache esistente in base a una percentuale della dimensione del volume originale.</block>
+  <block id="e33b91d9e0fc1cfb3b1e4c432687e47d" category="list-text">Elimina una cache.</block>
+  <block id="eed3d8fba58a64cd23112120a6117455" category="section-title">Visualizza i dettagli della cache</block>
+  <block id="5c69ebc5320400eed666c78803db34a8" category="paragraph">Per ogni memorizzazione nella cache è possibile visualizzare il volume originale, l'ambiente di lavoro, il volume della cache e altro ancora.</block>
+  <block id="5956b4d692699189d6894540b730139f" category="list-text">Dal menu di navigazione a sinistra della console NetApp , selezionare *Mobilità* &gt; *Memorizzazione nella cache del volume*.</block>
+  <block id="f8e53fb165d8b7a3831ce2aa7d4e77f6" category="paragraph">È possibile visualizzare l'elenco dei volumi di cache creati nel sistema di destinazione.  L'elenco delle cache mostra i dettagli della cache.</block>
+  <block id="02cefd577af8481ee671be4f9195bbaa" category="list-text">Per filtrare l'elenco, selezionare l'opzione *Filtra per +*.</block>
+  <block id="c9897a728d224b1031a3e8b6c1f025ae" category="list-text">Selezionare una riga e selezionare l'opzione *Azioni …* sulla destra.</block>
+  <block id="714df0afd8067aa43e79041c239c6f08" category="list-text">Seleziona *Visualizza e modifica dettagli*.</block>
+  <block id="d120091c5d384d26aa6d9f90d1401035" category="list-text">Esamina i dettagli.</block>
+  <block id="5b783fc58734a11a740b6e1e60e08d60" category="section-title">Modifica una cache</block>
+  <block id="5de1639bcf1d9741c547ce9e690a7ea1" category="paragraph">È possibile modificare il nome, la dimensione del volume e i criteri di esportazione di una cache.</block>
+  <block id="feed808375e6b93e924213348d6e1b33" category="list-text">Nella scheda Configurazione di base, è possibile modificare facoltativamente il nome della cache e la dimensione del volume della cache.</block>
+  <block id="f3bd519b868da90fe41b12102022d728" category="list-text">Facoltativamente, espandere la scheda Accesso alla cache e modificare questi valori:</block>
+  <block id="4224fae747c5197aa6015f2364e1af12" category="list-text">Il sentiero del monte.</block>
+  <block id="77cf0358c33e9b52d8fd3920268e696c" category="list-text">Una politica di esportazione diversa da quella esistente.</block>
+  <block id="fe33f2f773b6f4f6c83f89169f7da415" category="list-text">Per modificare i dettagli della condivisione SMB/CIFS o le regole della policy di esportazione, fare clic sull'opzione per accedere a NetApp System Manager.</block>
+  <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">Seleziona *Salva*.</block>
+  <block id="e48096df97c7e7e77282b4b97ee9bd9a" category="section-title">Assegna una policy di esportazione della cache diversa</block>
+  <block id="4635bd9ae5cb389a0305a6b8455fa215" category="paragraph">È possibile assegnare una policy di esportazione diversa a una cache.</block>
+  <block id="55d1d3e519ab62ebe0a1babb50ae6d72" category="paragraph">Le regole della policy di esportazione di origine devono essere applicate al cluster di destinazione.</block>
+  <block id="e7ce5893a6e3bdd09c32da72f9a3c69e" category="admonition">È possibile assegnare una policy di esportazione esistente a una cache.  Non è possibile modificare le regole della politica di esportazione.  Se è necessario modificare i criteri di esportazione, è possibile utilizzare NetApp System Manager.</block>
+  <block id="4d418cdd8812dfcb356166d6eaf269f7" category="list-text">Seleziona *Modifica policy di esportazione*.</block>
+  <block id="b580ca1414e0a945196190cbfbc1f75d" category="list-text">Selezionare la policy di esportazione che si desidera assegnare alla cache.</block>
+  <block id="3085df87f3cd191beb32cd249232f641" category="section-title">Ridimensionare una cache</block>
+  <block id="31bb5882b51789d8ff23370b949a73ec" category="paragraph">È possibile modificare la dimensione del volume della cache in base a una percentuale del volume di origine.</block>
+  <block id="782635f18c9a4c6e77f10be3b478b27a" category="list-text">Seleziona *Ridimensiona*.</block>
+  <block id="c108e3ea3f3ec7a419ec6372a3325d79" category="list-text">Immettere una nuova percentuale della dimensione del volume di origine.</block>
+  <block id="423f18c1cd7d2cab76c65e9cbd30b5d2" category="paragraph">Il volume della cache verrà ridimensionato in base alla nuova percentuale.</block>
+  <block id="8d4c7677b103c84ac6a97f6e946f6380" category="paragraph">Se non hai più bisogno della cache, puoi eliminarla.  In questo modo viene eliminata la relazione di memorizzazione nella cache del volume e viene eliminata la cache del volume di destinazione.</block>
+  <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">Seleziona *Elimina*.</block>
+  <block id="9b4532069e9bc4e1de3c019493dc5ee0" category="list-text">Seleziona la casella.</block>
+  <block id="ee3a3db0422831681fcef5898b4dd24f" category="doc">Panoramica sull'utilizzo della memorizzazione nella cache del volume</block>
+  <block id="a73bc81b4418cad7550381063b8d4d32" category="paragraph">Utilizzando la memorizzazione nella cache dei volumi, è possibile raggiungere i seguenti obiettivi:</block>
+  <block id="086ae240dc59a72dee947da562cf17da" category="list-text"><block ref="638e664503cbc2b4d03651ad48f065e4" category="inline-link-macro-rx"></block> .</block>
+  <block id="57eaca7fde0d682a5f4bb1194791b589" category="inline-link-macro">Modificare la politica di esportazione e ridimensionare una cache</block>
+  <block id="403db9049e8fc74fb1c958367db6cfab" category="list-text"><block ref="63c74ca1cdc9ec0d7fd9f52c97b2e161" category="inline-link-macro-rx"></block> .</block>
+  <block id="2d2bb0bd1efc96e65cb6deaedc742c41" category="list-text"><block ref="58044a3c76af89738ba5bad3bbf696eb" category="inline-link-macro-rx"></block> .</block>
+  <block id="158812c8336b1e3bf3dba3a26e130f17" category="list-text"><block ref="1f92bc5779f2f7dc3b853d4a9f3506c9" category="inline-link-macro-rx"></block>nella pagina Audit della console NetApp .</block>
+  <block id="08f83993cc2b93af6175018abeb278b0" category="summary">La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache dei volumi NetApp per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.</block>
+  <block id="a047d92e042b55157df7f9db9b86d574" category="doc">Monitorare i processi di memorizzazione nella cache del volume nella pagina Audit</block>
+  <block id="33c59f81102abcd6c4195719b1b7d1d3" category="paragraph">È possibile monitorare tutti i processi di memorizzazione nella cache dei volumi e determinarne l'avanzamento utilizzando la pagina Audit della console NetApp .</block>
+  <block id="da27a3a4029fc8a5d227b9d73327f99d" category="list-text">Dal menu della console NetApp , selezionare *Amministrazione* &gt; *Audit*.</block>
+  <block id="cb7056f588b57ee15c8c6aa56fe4dd4a" category="list-text">Facoltativamente, filtra per ora, servizio, azione, agente, risorsa, utente o stato.</block>
+  <block id="98f385a388036a7afb371f84cd26bc12" category="list-text">Esplora tutte le cache e le operazioni.</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Iniziare</block>
+  <block id="5afe8b22b287efe43609aa6085efd740" category="sidebar">Novità nella memorizzazione nella cache dei volumi</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Avvio rapido</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">Prerequisiti</block>
+  <block id="32298021301a69db3766a4f82422d5f1" category="sidebar">Accedi all'opzione di memorizzazione nella cache del volume</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">Domande frequenti</block>
+  <block id="6794961c24c959bbc17a00b15f547b94" category="sidebar">Utilizzare la memorizzazione nella cache del volume</block>
+  <block id="27688625d4bfcc77f4f9313d701cbb7d" category="sidebar">Monitorare i lavori di memorizzazione nella cache del volume</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blog e comunità</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">Servizi dati NetApp</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunità NetApp</block>
+  <block id="c46d8c9c80eb4644795b791069b82911" category="sidebar">Documentazione sulla memorizzazione nella cache del volume</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Cosa c'è di nuovo</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="sidebar">Limitazioni note</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conoscenza e supporto</block>
+</blocks>

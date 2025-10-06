@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: use/cache-create.html 
+keywords: volume caching, Volume caching 
+summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
+---
+= Crea una cache utilizzando la memorizzazione nella cache del volume
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi memorizzati nella cache sono ideali per carichi di lavoro ad alta intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.  È possibile creare la memorizzazione nella cache dei volumi tra Amazon FSx for ONTAP, Cloud Volumes ONTAP e ONTAP locale con uno o più volumi di origine dal sistema di origine come origine della cache.  Quindi si sceglie la macchina virtuale di archiviazione per i volumi della cache.
+
+Il volume memorizzato nella cache può trovarsi nello stesso cluster o in un cluster diverso da quello del volume di origine.  I volumi selezionati per la memorizzazione nella cache devono appartenere alla stessa VM di archiviazione e le VM di archiviazione devono utilizzare gli stessi protocolli.
+
+
+TIP: Se i volumi non sono idonei per la memorizzazione nella cache, vengono visualizzati in grigio e non è possibile selezionarli.
+
+È possibile immettere la dimensione dei volumi memorizzati nella cache come percentuale della dimensione del volume di origine.
+
+
+NOTE: L'IPSpace utilizzato dal volume memorizzato nella cache dipende dall'IPSpace utilizzato dalla VM di archiviazione di origine.
+
+Il nome del volume memorizzato nella cache utilizza un suffisso di `pass:macros[_cache]` aggiunto al nome del volume originale.
+
+
+
+== Passaggi dalla landing page della memorizzazione nella cache del volume
+
+. Accedi alla console NetApp .
+. Selezionare *Mobilità* > *Memorizzazione nella cache del volume* dal menu di navigazione a sinistra.
++
+Verrai indirizzato alla pagina Dashboard della memorizzazione nella cache del volume.  Quando si inizia a utilizzare l'opzione di memorizzazione nella cache del volume, è necessario aggiungere le informazioni sulla cache.  Successivamente, viene visualizzata la Dashboard, che mostra i dati sulle cache.
+
++
+
+NOTE: Se non hai ancora configurato un agente NetApp Console, al posto di *Aggiungi una cache* viene visualizzata l'opzione *Aggiungi un agente Console*.  In questo caso, è necessario prima configurare l'agente Console.  Fare riferimento al https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Avvio rapido della console NetApp"^] .
+
++
+image:landing-page.png["la landing page per la memorizzazione nella cache del volume"]
+
+. Seleziona *Aggiungi una cache*.
+. Nella pagina Dati cache, seleziona la cache di origine e di destinazione del sistema e seleziona *Avvia procedura guidata di memorizzazione nella cache*.
+. Nella pagina Configura le tue cache, seleziona il volume o i volumi che desideri memorizzare nella cache.
++
+
+NOTE: È possibile selezionare fino a 50 volumi.
+
+. Scorrere la pagina verso il basso per apportare ulteriori modifiche ai dettagli della VM o alle dimensioni del volume.
+. Immettere la dimensione dei volumi della cache come percentuale della dimensione del volume di origine.
++
+
+TIP: Una buona regola pratica è che la dimensione del volume della cache dovrebbe essere circa il 15% della dimensione del volume di origine.
+
+. Selezionare la casella *Accesso cache* per replicare le regole dei criteri di esportazione NFS e la configurazione della condivisione SMB/CIFS dal volume di origine al volume della cache di destinazione.
++
+Quindi le regole dei criteri di esportazione NFS e la condivisione SMB/CIFS nel volume di origine verranno replicate nel volume della cache.  Se il protocollo SMB/CIFS non è abilitato sulla VM di archiviazione cache, la condivisione SMB/CIFS non verrà replicata.
+
+. Facoltativamente, immettere il prefisso del nome della cache.
++
+Il suffisso di `pass:macros[_cache]` viene aggiunto al nome nel formato: `<user-specified prefix>_<source volume name>_cache`
+
+. Seleziona *Crea cache*.
++
+La nuova cache viene visualizzata nell'elenco Memorizzazione nella cache.  Verrà visualizzato il nome del volume della cache `pass:macros[_cache]` come suffisso al nome del volume sorgente.
+
+. Per visualizzare lo stato di avanzamento dell'operazione, dal menu NetApp Console, selezionare *Amministrazione* > *Audit*.
+
+
+
+
+== Passaggi dalla pagina Sistemi della console NetApp
+
+. Dalla pagina Sistemi console NetApp , selezionare l'ambiente di lavoro.
+. Selezionare il sistema sorgente e trascinarlo nella destinazione.image:drag-n-drop.png["funzionalità di trascinamento della selezione per creare la cache"]
+. Selezionare *Memorizzazione nella cache del volume*.
++
+In questo modo viene creato un volume di cache dall'origine alla destinazione.
+
+. Nel riquadro destro, nella casella delle opzioni Memorizzazione nella cache, seleziona *Aggiungi*.
+. Nella pagina Dati cache, seleziona il sistema che desideri memorizzare nella cache e seleziona *Avvia procedura guidata cache*.image:cache-data.png["pop-up dei dati della cache"]
+. Nella pagina Configura le tue cache, seleziona il volume o i volumi che desideri memorizzare nella cache.
++
+
+NOTE: È possibile selezionare fino a 50 volumi.
+
+. Scorrere la pagina verso il basso per apportare ulteriori modifiche ai dettagli della VM o alle dimensioni del volume.
+. Immettere la dimensione dei volumi della cache come percentuale della dimensione del volume di origine.
++
+
+TIP: Una buona regola pratica è che la dimensione del volume della cache dovrebbe essere circa il 15% della dimensione del volume di origine.
+
++
+image:create-cache.png["finestra per l'aggiunta di cache"]
+
+. Selezionare la casella *Accesso cache* per replicare le regole dei criteri di esportazione NFS e la configurazione della condivisione SMB/CIFS dal volume di origine al volume della cache di destinazione.
++
+Quindi le regole dei criteri di esportazione NFS e la condivisione SMB/CIFS nel volume di origine verranno replicate nel volume della cache.  Se il protocollo SMB/CIFS non è abilitato sulla VM di archiviazione cache, la condivisione SMB/CIFS non verrà replicata.
+
+. Facoltativamente, immettere il prefisso del nome della cache.
++
+Il suffisso di `pass:macros[_cache]` viene aggiunto al nome nel formato: `<user-specified prefix>_<source volume name>_cache`
+
+. Seleziona *Crea cache*.
++
+La nuova cache viene visualizzata nell'elenco Memorizzazione nella cache.  Verrà visualizzato il nome del volume della cache `pass:macros[_cache]` come suffisso al nome del volume sorgente.
+
+. Per visualizzare lo stato di avanzamento dell'operazione, dal menu NetApp Console, selezionare *Amministrazione* > *Audit*.
+

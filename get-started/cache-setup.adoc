@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-setup.html 
+keywords: bluexp, volume caching, 
+summary: Per utilizzare la memorizzazione nella cache del volume, è necessario eseguire alcuni passaggi per configurarla. 
+---
+= Imposta la memorizzazione nella cache del volume
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Per utilizzare la memorizzazione nella cache del volume, è necessario eseguire alcuni passaggi per configurarla.
+
+* Revisionelink:../get-started/cache-prerequisites.html["prerequisiti"] per garantire che il tuo ambiente sia pronto.
+* Creare un agente Console.
+* Creare sistemi in grado di supportare la memorizzazione nella cache dei volumi.
+
+
+
+
+== Creare un agente Console nella console NetApp
+
+Il passaggio successivo consiste nel creare un agente Console nella console NetApp .
+
+Per creare un agente Console prima di utilizzare la memorizzazione nella cache del volume, fare riferimento alla documentazione di NetApp Console che descrive https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Come creare un agente Console"^] .
+
+
+
+== Creare sistemi
+
+Se non lo hai già fatto, devi creare i sistemi per la sorgente e la destinazione.
+
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["Creare un sistema Amazon FSx per ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Avvia Cloud Volumes ONTAP in AWS"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Avvia Cloud Volumes ONTAP in Azure"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Avvia Cloud Volumes ONTAP in GCP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["Aggiungere sistemi Cloud Volumes ONTAP esistenti"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["Scopri i cluster ONTAP"^]
+

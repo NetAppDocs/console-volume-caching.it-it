@@ -1,0 +1,12 @@
+---
+section: use
+title: Utilizzare la memorizzazione nella cache del volume
+entries:
+- title: Panoramica sull'utilizzo della memorizzazione nella cache del volume
+  url: "/use/cache-use-overview.html"
+- title: Crea una cache
+  url: "/use/cache-create.html"
+- title: Gestire una cache
+  url: "/use/cache-manage.html"
+- title: Monitorare i lavori di memorizzazione nella cache del volume
+  url: "/use/monitor-jobs.html"

@@ -1,0 +1,41 @@
+---
+indexpage:
+  lead: La memorizzazione nella cache del volume fornisce un volume persistente e
+    scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione
+    nella cache dei volumi per velocizzare l'accesso ai dati o per scaricare il traffico
+    dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali
+    per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client
+    devono accedere ripetutamente agli stessi dati.
+  tiles:
+  - title: Iniziare
+    links:
+    - title: Scopri di più sulla memorizzazione nella cache dei volumi
+      url: "/get-started/cache-intro.html"
+    - title: Novità nella memorizzazione nella cache dei volumi
+      url: "/release-notes/cache-whats-new.html"
+    - title: Avvio rapido
+      url: "/get-started/cache-quick-start.html"
+    - title: Prerequisiti
+      url: "/get-started/cache-prerequisites.html"
+    - title: Accedi all'opzione di memorizzazione nella cache del volume
+      url: "/get-started/cache-login.html"
+    - title: Domande frequenti
+      url: "/get-started/cache-faq.html"
+  - title: Utilizzare la memorizzazione nella cache del volume
+    links:
+    - title: Panoramica sull'utilizzo della memorizzazione nella cache del volume
+      url: "/use/cache-use-overview.html"
+    - title: Crea una cache
+      url: "/use/cache-create.html"
+    - title: Gestire una cache
+      url: "/use/cache-manage.html"
+    - title: Monitorare i lavori di memorizzazione nella cache del volume
+      url: "/use/monitor-jobs.html"
+  - title: Blog e comunità
+    links:
+    - title: Console NetApp
+      url: https://www.netapp.com/console
+    - title: Servizi dati NetApp
+      url: https://www.netapp.com/data-services/
+    - title: Comunità NetApp
+      url: https://community.netapp.com/

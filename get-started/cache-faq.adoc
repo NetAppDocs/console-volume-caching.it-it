@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-faq.html 
+keywords: volume caching faq, caching frequently asked questions 
+summary: Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a una domanda. 
+---
+= Domande frequenti sulla memorizzazione nella cache dei volumi
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a una domanda.
+
+*Qual è l'URL di memorizzazione nella cache del volume?*  Per l'URL, in un browser, inserisci: https://console.netapp.com/["https://console.netapp.com/"^] per accedere alla console BlueXP .
+
+*È necessaria una licenza per utilizzare la memorizzazione nella cache dei volumi?* Non è richiesto un file di licenza NetApp (NLF).
+
+*Come si abilita la memorizzazione nella cache del volume?*  La memorizzazione nella cache del volume non richiede alcuna abilitazione.  L'opzione di memorizzazione nella cache del volume viene visualizzata automaticamente nella barra di navigazione a sinistra della console NetApp .
