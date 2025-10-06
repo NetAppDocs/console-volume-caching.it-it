@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/cache-manage.html 
 keywords: volume caching, Volume caching 
-summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
+summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
 ---
 = Gestire una cache
 :hardbreaks:
@@ -30,7 +30,7 @@ Con la memorizzazione nella cache dei volumi è possibile raggiungere i seguenti
 Per ogni memorizzazione nella cache è possibile visualizzare il volume originale, l'ambiente di lavoro, il volume della cache e altro ancora.
 
 .Passi
-. Dal menu di navigazione a sinistra della console NetApp , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
+. Dal menu di navigazione a sinistra NetApp Console , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
 +
 È possibile visualizzare l'elenco dei volumi di cache creati nel sistema di destinazione.  L'elenco delle cache mostra i dettagli della cache.
 
@@ -47,7 +47,7 @@ Per ogni memorizzazione nella cache è possibile visualizzare il volume original
 È possibile modificare il nome, la dimensione del volume e i criteri di esportazione di una cache.
 
 .Passi
-. Dal menu di navigazione a sinistra della console NetApp , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
+. Dal menu di navigazione a sinistra NetApp Console , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
 . Selezionare una riga e selezionare l'opzione *Azioni …* sulla destra.
 . Seleziona *Visualizza e modifica dettagli*.
 . Nella scheda Configurazione di base, è possibile modificare facoltativamente il nome della cache e la dimensione del volume della cache.
@@ -73,7 +73,7 @@ Le regole della policy di esportazione di origine devono essere applicate al clu
 TIP: È possibile assegnare una policy di esportazione esistente a una cache.  Non è possibile modificare le regole della politica di esportazione.  Se è necessario modificare i criteri di esportazione, è possibile utilizzare NetApp System Manager.
 
 .Passi
-. Dal menu di navigazione a sinistra della console NetApp , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
+. Dal menu di navigazione a sinistra NetApp Console , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
 . Selezionare una riga e selezionare l'opzione *Azioni …* sulla destra.
 . Seleziona *Modifica policy di esportazione*.
 . Selezionare la policy di esportazione che si desidera assegnare alla cache.
@@ -87,7 +87,7 @@ TIP: È possibile assegnare una policy di esportazione esistente a una cache.  N
 È possibile modificare la dimensione del volume della cache in base a una percentuale del volume di origine.
 
 .Passi
-. Dal menu di navigazione a sinistra della console NetApp , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
+. Dal menu di navigazione a sinistra NetApp Console , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
 . Selezionare una riga e selezionare l'opzione *Azioni …* sulla destra.
 . Seleziona *Ridimensiona*.
 . Immettere una nuova percentuale della dimensione del volume di origine.
@@ -104,7 +104,7 @@ Il volume della cache verrà ridimensionato in base alla nuova percentuale.
 Se non hai più bisogno della cache, puoi eliminarla.  In questo modo viene eliminata la relazione di memorizzazione nella cache del volume e viene eliminata la cache del volume di destinazione.
 
 .Passi
-. Dal menu di navigazione a sinistra della console NetApp , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
+. Dal menu di navigazione a sinistra NetApp Console , selezionare *Mobilità* > *Memorizzazione nella cache del volume*.
 . Selezionare una riga e selezionare l'opzione *Azioni …* sulla destra.
 . Seleziona *Elimina*.
 . Seleziona la casella.

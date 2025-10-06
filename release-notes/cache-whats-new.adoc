@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/cache-whats-new.html 
 keywords: volume caching faq, bluexp, volume caching frequently asked questions 
-summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
+summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
 ---
 = Novità nella memorizzazione nella cache dei volumi
 :hardbreaks:
@@ -24,15 +24,15 @@ Scopri le novità nella memorizzazione nella cache dei volumi.
 
 La BlueXP volume caching è stata rinominata in memorizzazione nella cache del volume.
 
-È possibile accedervi dalla barra di navigazione sinistra della console NetApp selezionando *Mobilità* > *Memorizzazione nella cache del volume*.
+È possibile accedervi dalla barra di navigazione sinistra NetApp Console selezionando *Mobilità* > *Memorizzazione nella cache del volume*.
 
 
 
 === BlueXP è ora NetApp Console
 
-NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e dei NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
+NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
 
-Per i dettagli su cosa è cambiato, vederelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Note sulla versione della console NetApp"] .
+Per i dettagli su cosa è cambiato, vederelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Note sulla versione NetApp Console"] .
 
 
 
@@ -42,7 +42,7 @@ Per i dettagli su cosa è cambiato, vederelink:https://docs.netapp.com/us-en/blu
 
 === BlueXP volume caching
 
-La BlueXP volume caching, una funzionalità del software ONTAP 9, è una funzionalità di memorizzazione nella cache remota che semplifica la distribuzione dei file, riduce la latenza WAN avvicinando le risorse alla posizione degli utenti e delle risorse di elaborazione e abbassa i costi della larghezza di banda WAN.  La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la BlueXP volume caching per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.
+La BlueXP volume caching, una funzionalità del software ONTAP 9, è una funzionalità di memorizzazione nella cache remota che semplifica la distribuzione dei file, riduce la latenza WAN avvicinando le risorse alla posizione degli utenti e delle risorse di elaborazione e abbassa i costi della larghezza di banda WAN. La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la BlueXP volume caching per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.
 
 Con la BlueXP volume caching, hai funzionalità di memorizzazione nella cache per il cloud, in particolare per Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP e ambienti di lavoro locali.
 

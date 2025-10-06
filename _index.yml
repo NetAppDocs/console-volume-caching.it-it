@@ -1,11 +1,11 @@
 ---
 indexpage:
   lead: La memorizzazione nella cache del volume fornisce un volume persistente e
-    scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione
-    nella cache dei volumi per velocizzare l'accesso ai dati o per scaricare il traffico
-    dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali
-    per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client
-    devono accedere ripetutamente agli stessi dati.
+    scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella
+    cache dei volumi per velocizzare l'accesso ai dati o per scaricare il traffico
+    dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per
+    carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono
+    accedere ripetutamente agli stessi dati.
   tiles:
   - title: Iniziare
     links:
@@ -33,9 +33,9 @@ indexpage:
       url: "/use/monitor-jobs.html"
   - title: Blog e comunità
     links:
-    - title: Console NetApp
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: Servizi dati NetApp
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: Comunità NetApp
       url: https://community.netapp.com/

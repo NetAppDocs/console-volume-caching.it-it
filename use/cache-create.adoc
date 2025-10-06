@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/cache-create.html 
 keywords: volume caching, Volume caching 
-summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
+summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
 ---
 = Crea una cache utilizzando la memorizzazione nella cache del volume
 :hardbreaks:
@@ -12,7 +12,7 @@ summary: 'La memorizzazione nella cache del volume fornisce un volume persistent
 
 
 [role="lead"]
-La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi memorizzati nella cache sono ideali per carichi di lavoro ad alta intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.  È possibile creare la memorizzazione nella cache dei volumi tra Amazon FSx for ONTAP, Cloud Volumes ONTAP e ONTAP locale con uno o più volumi di origine dal sistema di origine come origine della cache.  Quindi si sceglie la macchina virtuale di archiviazione per i volumi della cache.
+La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi memorizzati nella cache sono ideali per carichi di lavoro ad alta intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.  È possibile creare la memorizzazione nella cache dei volumi tra Amazon FSx for ONTAP, Cloud Volumes ONTAP e ONTAP locale con uno o più volumi di origine dal sistema di origine come origine della cache.  Quindi si sceglie la macchina virtuale di archiviazione per i volumi della cache.
 
 Il volume memorizzato nella cache può trovarsi nello stesso cluster o in un cluster diverso da quello del volume di origine.  I volumi selezionati per la memorizzazione nella cache devono appartenere alla stessa VM di archiviazione e le VM di archiviazione devono utilizzare gli stessi protocolli.
 
@@ -30,14 +30,14 @@ Il nome del volume memorizzato nella cache utilizza un suffisso di `pass:macros[
 
 == Passaggi dalla landing page della memorizzazione nella cache del volume
 
-. Accedi alla console NetApp .
+. Accedi alla NetApp Console.
 . Selezionare *Mobilità* > *Memorizzazione nella cache del volume* dal menu di navigazione a sinistra.
 +
 Verrai indirizzato alla pagina Dashboard della memorizzazione nella cache del volume.  Quando si inizia a utilizzare l'opzione di memorizzazione nella cache del volume, è necessario aggiungere le informazioni sulla cache.  Successivamente, viene visualizzata la Dashboard, che mostra i dati sulle cache.
 
 +
 
-NOTE: Se non hai ancora configurato un agente NetApp Console, al posto di *Aggiungi una cache* viene visualizzata l'opzione *Aggiungi un agente Console*.  In questo caso, è necessario prima configurare l'agente Console.  Fare riferimento al https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Avvio rapido della console NetApp"^] .
+NOTE: Se non hai ancora configurato un agente NetApp Console , al posto di *Aggiungi una cache* viene visualizzata l'opzione *Aggiungi un agente Console*.  In questo caso, è necessario prima configurare l'agente Console. Fare riferimento al https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Avvio rapido NetApp Console"^] .
 
 +
 image:landing-page.png["la landing page per la memorizzazione nella cache del volume"]
@@ -67,14 +67,14 @@ Il suffisso di `pass:macros[_cache]` viene aggiunto al nome nel formato: `<user-
 +
 La nuova cache viene visualizzata nell'elenco Memorizzazione nella cache.  Verrà visualizzato il nome del volume della cache `pass:macros[_cache]` come suffisso al nome del volume sorgente.
 
-. Per visualizzare lo stato di avanzamento dell'operazione, dal menu NetApp Console, selezionare *Amministrazione* > *Audit*.
+. Per visualizzare lo stato di avanzamento dell'operazione, dal menu NetApp Console , selezionare *Amministrazione* > *Audit*.
 
 
 
 
-== Passaggi dalla pagina Sistemi della console NetApp
+== Passaggi dalla pagina Sistemi NetApp Console
 
-. Dalla pagina Sistemi console NetApp , selezionare l'ambiente di lavoro.
+. Dalla pagina Sistemi NetApp Console , selezionare l'ambiente di lavoro.
 . Selezionare il sistema sorgente e trascinarlo nella destinazione.image:drag-n-drop.png["funzionalità di trascinamento della selezione per creare la cache"]
 . Selezionare *Memorizzazione nella cache del volume*.
 +
@@ -108,5 +108,5 @@ Il suffisso di `pass:macros[_cache]` viene aggiunto al nome nel formato: `<user-
 +
 La nuova cache viene visualizzata nell'elenco Memorizzazione nella cache.  Verrà visualizzato il nome del volume della cache `pass:macros[_cache]` come suffisso al nome del volume sorgente.
 
-. Per visualizzare lo stato di avanzamento dell'operazione, dal menu NetApp Console, selezionare *Amministrazione* > *Audit*.
+. Per visualizzare lo stato di avanzamento dell'operazione, dal menu NetApp Console , selezionare *Amministrazione* > *Audit*.
 

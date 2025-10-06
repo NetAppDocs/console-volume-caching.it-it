@@ -18,4 +18,4 @@ Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a una doma
 
 *È necessaria una licenza per utilizzare la memorizzazione nella cache dei volumi?* Non è richiesto un file di licenza NetApp (NLF).
 
-*Come si abilita la memorizzazione nella cache del volume?*  La memorizzazione nella cache del volume non richiede alcuna abilitazione.  L'opzione di memorizzazione nella cache del volume viene visualizzata automaticamente nella barra di navigazione a sinistra della console NetApp .
+*Come si abilita la memorizzazione nella cache del volume?*  La memorizzazione nella cache del volume non richiede alcuna abilitazione.  L'opzione di memorizzazione nella cache del volume viene visualizzata automaticamente nella barra di navigazione a sinistra della NetApp Console .

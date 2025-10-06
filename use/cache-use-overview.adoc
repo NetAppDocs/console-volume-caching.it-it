@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/cache-use-overview.html 
 keywords: volume caching, volume caching 
-summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
+summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
 ---
 = Panoramica sull'utilizzo della memorizzazione nella cache del volume
 :hardbreaks:
@@ -18,5 +18,5 @@ Utilizzando la memorizzazione nella cache dei volumi, è possibile raggiungere i
 * link:../use/cache-manage.html#view-cache-details["Visualizza i dettagli della cache"] .
 * link:../use/cache-manage.html#assign-a-different-cache-export-policy["Modificare la politica di esportazione e ridimensionare una cache"] .
 * link:../use/cache-manage.html#delete-a-volume-cache["Elimina una cache"] .
-* link:../use/monitor-jobs.html["Monitorare le operazioni di memorizzazione nella cache del volume"]nella pagina Audit della console NetApp .
+* link:../use/monitor-jobs.html["Monitorare le operazioni di memorizzazione nella cache del volume"]nella pagina Audit NetApp Console .
 

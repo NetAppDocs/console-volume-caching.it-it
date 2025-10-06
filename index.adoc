@@ -2,7 +2,7 @@
 layout: landing-page 
 sidebar: sidebar 
 permalink: index.html 
-summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
+summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
 ---
 = Memorizzazione nella cache del volume
 :hardbreaks:

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: get-started/cache-intro.html 
 keywords: how volume caching works, what is volume caching, bluexp 
-summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
+summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
 ---
 = Scopri di più sulla memorizzazione nella cache dei volumi
 :hardbreaks:
@@ -12,23 +12,23 @@ summary: 'La memorizzazione nella cache del volume fornisce un volume persistent
 
 
 [role="lead"]
-La memorizzazione nella cache del volume, una funzionalità del software ONTAP 9, è una funzionalità di memorizzazione nella cache remota che semplifica la distribuzione dei file, riduce la latenza WAN avvicinando le risorse alla posizione degli utenti e delle risorse di elaborazione e abbassa i costi della larghezza di banda WAN.  La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.
+La memorizzazione nella cache del volume, una funzionalità del software ONTAP 9, è una funzionalità di memorizzazione nella cache remota che semplifica la distribuzione dei file, riduce la latenza WAN avvicinando le risorse alla posizione degli utenti e delle risorse di elaborazione e abbassa i costi della larghezza di banda WAN. La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.
 
 Con la memorizzazione nella cache dei volumi, hai a disposizione funzionalità di memorizzazione nella cache per il cloud, in particolare per Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP e ambienti di lavoro locali.
 
-La memorizzazione nella cache dei volumi consente inoltre alle filiali di accedere ai set di dati aziendali.  Fornendo _dati attivi_, dati a cui è necessario accedere frequentemente da più controller in un cluster, è possibile aumentare le prestazioni fornite alle applicazioni chiave.  Inoltre, memorizzando nella cache i dati importanti a livello locale per gli utenti in più sedi nel mondo, è possibile migliorare la loro collaborazione consentendo l'accesso simultaneo a set di dati centralizzati e riducendo al contempo i tempi di risposta quando accedono ai dati importanti.
+La memorizzazione nella cache dei volumi consente inoltre alle filiali di accedere ai set di dati aziendali.  Fornendo _dati attivi_, dati a cui è necessario accedere frequentemente da più controller in un cluster, è possibile aumentare le prestazioni fornite alle applicazioni chiave.  Inoltre, memorizzando nella cache i dati più importanti a livello locale per gli utenti in più sedi nel mondo, è possibile migliorare la loro collaborazione consentendo l'accesso simultaneo a set di dati centralizzati e riducendo al contempo i tempi di risposta quando accedono ai dati più importanti.
 
 
 
-== Console NetApp
+== NetApp Console
 
-La memorizzazione nella cache dei volumi è accessibile tramite la console NetApp .
+La memorizzazione nella cache del volume è accessibile tramite la NetApp Console.
 
 NetApp Console offre una gestione centralizzata dei servizi di storage e dati NetApp in ambienti on-premise e cloud di livello aziendale. La console è necessaria per accedere e utilizzare i servizi dati NetApp . In quanto interfaccia di gestione, consente di gestire numerose risorse di archiviazione da un'unica interfaccia. Gli amministratori della console possono controllare l'accesso allo storage e ai servizi per tutti i sistemi all'interno dell'azienda.
 
 Per iniziare a utilizzare NetApp Console non è necessaria una licenza o un abbonamento e verranno addebitati costi solo quando sarà necessario distribuire gli agenti della console nel cloud per garantire la connettività ai sistemi di storage o ai servizi dati NetApp . Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono concessi in licenza o basati su abbonamento.
 
-Scopri di più su https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Console NetApp"] .
+Scopri di più su https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"] .
 
 
 

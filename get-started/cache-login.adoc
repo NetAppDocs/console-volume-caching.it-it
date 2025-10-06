@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: get-started/cache-login.html 
 keywords: bluexp login, volume caching log in 
-summary: Per iniziare a utilizzare la memorizzazione nella cache dei volumi, accedi al servizio nella console NetApp . 
+summary: Per iniziare a utilizzare la memorizzazione nella cache dei volumi, accedi al servizio nella NetApp Console. 
 ---
 = Accesso alla memorizzazione nella cache del volume
 :hardbreaks:
@@ -12,14 +12,14 @@ summary: Per iniziare a utilizzare la memorizzazione nella cache dei volumi, acc
 
 
 [role="lead"]
-Per accedere all'opzione di memorizzazione nella cache del volume, utilizzare la console NetApp .
+Per accedere all'opzione di memorizzazione nella cache del volume, utilizzare la NetApp Console .
 
-Per accedere alla console NetApp , puoi utilizzare le credenziali del sito di supporto NetApp . https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Scopri di più sull'accesso"^] .
+Per accedere alla NetApp Console, puoi utilizzare le credenziali del sito di supporto NetApp . https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Scopri di più sull'accesso"^] .
 
 .Passi
 . Apri un browser web e vai su https://console.netapp.com/["Console NetApp"^] .
 +
-Viene visualizzata la pagina di accesso alla console NetApp .
+Viene visualizzata la pagina di accesso NetApp Console .
 
 . Accedi alla Console.
 . Dal menu di navigazione a sinistra della Console, seleziona *Mobilità* > *Memorizzazione nella cache del volume*.

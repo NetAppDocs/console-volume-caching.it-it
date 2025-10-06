@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/monitor-jobs.html 
 keywords: volume caching, NetApp Volume caching 
-summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache dei volumi NetApp per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente.  I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
+summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache dei volumi NetApp per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
 ---
 = Monitorare i processi di memorizzazione nella cache del volume nella pagina Audit
 :hardbreaks:
@@ -12,10 +12,10 @@ summary: 'La memorizzazione nella cache del volume fornisce un volume persistent
 
 
 [role="lead"]
-È possibile monitorare tutti i processi di memorizzazione nella cache dei volumi e determinarne l'avanzamento utilizzando la pagina Audit della console NetApp .
+È possibile monitorare tutti i processi di memorizzazione nella cache dei volumi e determinarne l'avanzamento utilizzando la pagina Audit NetApp Console .
 
 .Passi
-. Dal menu della console NetApp , selezionare *Amministrazione* > *Audit*.
+. Dal menu NetApp Console , selezionare *Amministrazione* > *Audit*.
 . Facoltativamente, filtra per ora, servizio, azione, agente, risorsa, utente o stato.
 . Esplora tutte le cache e le operazioni.
 
