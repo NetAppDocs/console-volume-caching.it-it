@@ -17,6 +17,5 @@ Utilizzando la memorizzazione nella cache dei volumi, è possibile raggiungere i
 * link:../use/cache-create.html["Crea una cache"] .
 * link:../use/cache-manage.html#view-cache-details["Visualizza i dettagli della cache"] .
 * link:../use/cache-manage.html#assign-a-different-cache-export-policy["Modificare la politica di esportazione e ridimensionare una cache"] .
-* link:../use/cache-manage.html#delete-a-volume-cache["Elimina una cache"] .
 * link:../use/monitor-jobs.html["Monitorare le operazioni di memorizzazione nella cache del volume"]nella pagina Audit NetApp Console .
 

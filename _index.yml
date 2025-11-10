@@ -1,5 +1,6 @@
 ---
 indexpage:
+  title: Memorizzazione nella cache del volume NetApp
   lead: La memorizzazione nella cache del volume fornisce un volume persistente e
     scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella
     cache dei volumi per velocizzare l'accesso ai dati o per scaricare il traffico
