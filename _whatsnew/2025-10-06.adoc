@@ -1,12 +1,12 @@
-= La BlueXP volume caching ora è la memorizzazione nella cache del volume
+= BlueXP Volume Caching ora è Volume Caching
 :allow-uri-read: 
 
 
 
 
-=== La BlueXP volume caching ora è la memorizzazione nella cache del volume
+=== BlueXP Volume Caching ora è Volume Caching
 
-La BlueXP volume caching è stata rinominata in memorizzazione nella cache del volume.
+BlueXP Volume Caching è stato rinominato Volume Caching.
 
 È possibile accedervi dalla barra di navigazione sinistra NetApp Console selezionando *Mobilità* > *Memorizzazione nella cache del volume*.
 

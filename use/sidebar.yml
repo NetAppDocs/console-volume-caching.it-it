@@ -8,5 +8,5 @@ entries:
   url: "/use/cache-create.html"
 - title: Gestire una cache
   url: "/use/cache-manage.html"
-- title: Monitorare i lavori di memorizzazione nella cache del volume
+- title: Monitora i lavori di memorizzazione nella cache del volume
   url: "/use/monitor-jobs.html"

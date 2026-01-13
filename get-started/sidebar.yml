@@ -10,7 +10,7 @@ entries:
   url: "/get-started/cache-quick-start.html"
 - title: Imposta la memorizzazione nella cache del volume
   url: "/get-started/cache-setup.html"
-- title: Accedi all'opzione di memorizzazione nella cache del volume
+- title: Accedi all'opzione Volume Caching
   url: "/get-started/cache-login.html"
 - title: Domande frequenti
   url: "/get-started/cache-faq.html"

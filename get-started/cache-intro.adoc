@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-intro.html 
-keywords: how volume caching works, what is volume caching, bluexp 
+keywords: how Volume Caching works, what is Volume Caching, bluexp 
 summary: 'La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota. È possibile utilizzare la memorizzazione nella cache dei volumi per velocizzare l"accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.' 
 ---
 = Scopri di più sulla memorizzazione nella cache dei volumi
@@ -14,7 +14,7 @@ summary: 'La memorizzazione nella cache del volume fornisce un volume persistent
 [role="lead"]
 La memorizzazione nella cache del volume, una funzionalità del software ONTAP 9, è una funzionalità di memorizzazione nella cache remota che semplifica la distribuzione dei file, riduce la latenza WAN avvicinando le risorse alla posizione degli utenti e delle risorse di elaborazione e abbassa i costi della larghezza di banda WAN. La memorizzazione nella cache del volume fornisce un volume persistente e scrivibile in una posizione remota.  È possibile utilizzare la memorizzazione nella cache del volume per velocizzare l'accesso ai dati o per scaricare il traffico dai volumi a cui si accede più frequentemente. I volumi di cache sono ideali per carichi di lavoro ad alta intensità di lettura, soprattutto quando i client devono accedere ripetutamente agli stessi dati.
 
-Con la memorizzazione nella cache dei volumi, hai a disposizione funzionalità di memorizzazione nella cache per il cloud, in particolare per Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP e ambienti di lavoro locali.
+Con Volume Caching, hai funzionalità di caching per il cloud, in particolare per Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP e ambienti di lavoro locali.
 
 La memorizzazione nella cache dei volumi consente inoltre alle filiali di accedere ai set di dati aziendali.  Fornendo _dati attivi_, dati a cui è necessario accedere frequentemente da più controller in un cluster, è possibile aumentare le prestazioni fornite alle applicazioni chiave.  Inoltre, memorizzando nella cache i dati più importanti a livello locale per gli utenti in più sedi nel mondo, è possibile migliorare la loro collaborazione consentendo l'accesso simultaneo a set di dati centralizzati e riducendo al contempo i tempi di risposta quando accedono ai dati più importanti.
 
@@ -52,7 +52,7 @@ La memorizzazione nella cache dei volumi offre i seguenti vantaggi:
 
 
 
-== Cosa puoi fare con la memorizzazione nella cache del volume
+== Cosa puoi fare con Volume Caching
 
 La memorizzazione nella cache dei volumi consente di sfruttare appieno diverse tecnologie NetApp per raggiungere i seguenti obiettivi:
 
@@ -66,13 +66,13 @@ La memorizzazione nella cache dei volumi consente di sfruttare appieno diverse t
 
 == Costo
 
-NetApp non addebita alcun costo per la memorizzazione nella cache dei volumi, ma è necessario verificare con il proprio provider cloud i costi applicabili per l'ingresso e l'uscita dei dati.
+NetApp non addebita alcun costo per il caching dei volumi, ma è necessario verificare con il proprio provider cloud i costi applicabili per l'ingresso e l'uscita dei dati.
 
 
 
 == Licenza
 
-Per la memorizzazione nella cache dei volumi non sono necessarie licenze ONTAP speciali.
+Per Volume Caching non sono necessarie licenze ONTAP speciali.
 
 
 
@@ -82,4 +82,4 @@ Un volume cache è un volume scarsamente popolato supportato da un volume sorgen
 
 Il volume della cache fornisce l'accesso ai dati nel volume di origine senza richiedere che tutti i dati siano nel volume della cache.  L'archiviazione dei dati nel volume di memorizzazione nella cache viene gestita in modo efficiente conservando solo i dati attivi (dati in funzione o utilizzati di recente).
 
-La memorizzazione nella cache del volume legge le richieste se il volume della cache contiene i dati richiesti dal client.  In caso contrario, il servizio di memorizzazione nella cache del volume richiede i dati dal volume di origine e li memorizza prima di soddisfare la richiesta del client.  Le richieste successive di dati vengono quindi gestite direttamente dal volume della cache.  Ciò migliora le prestazioni quando si accede ripetutamente agli stessi dati, perché dopo la prima richiesta, i dati non devono più viaggiare attraverso la rete o essere forniti da un sistema sovraccarico.
+La memorizzazione nella cache del volume legge le richieste se il volume della cache contiene i dati richiesti dal client. In caso contrario, il servizio di memorizzazione nella cache del volume richiede i dati dal volume di origine e li archivia prima di soddisfare la richiesta del client. Le richieste successive di dati vengono quindi gestite direttamente dal volume della cache. Ciò migliora le prestazioni quando si accede ripetutamente agli stessi dati, perché dopo la prima richiesta, i dati non devono più viaggiare attraverso la rete o essere forniti da un sistema sovraccarico.

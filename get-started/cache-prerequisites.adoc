@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-prerequisites.html 
-keywords: what are volume caching requirements, volume caching prerequisites 
-summary: 'Per iniziare a utilizzare la memorizzazione nella cache dei volumi, verifica il supporto per il tuo ambiente, l"accesso alla rete, l"accesso e il browser Web.' 
+keywords: what are Volume Caching requirements, Volume Caching prerequisites 
+summary: 'Per iniziare a utilizzare Volume Caching, verifica il supporto per il tuo ambiente, l"accesso alla rete, l"accesso e il browser web.' 
 ---
 = Prerequisiti per la memorizzazione nella cache del volume
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Per iniziare a utilizzare la memorizzazione nella cache dei volumi, ve
 [role="lead"]
 Per iniziare, verifica la prontezza del tuo ambiente operativo, dell'accesso, dell'accesso alla rete e del browser web.
 
-Per utilizzare la memorizzazione nella cache dei volumi, è necessario assicurarsi che l'ambiente soddisfi tutti i requisiti.
+Per utilizzare Volume Caching, è necessario assicurarsi che l'ambiente soddisfi tutti i requisiti.
 
 * ONTAP 9.8 e versioni successive
 +
