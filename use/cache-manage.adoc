@@ -25,6 +25,7 @@ Con Volume Caching puoi raggiungere i seguenti obiettivi:
 
 
 
+[[view-cache-details]]
 == Visualizza i dettagli della cache
 
 Per ogni memorizzazione nella cache è possibile visualizzare il volume originale, l'ambiente di lavoro, il volume della cache e altro ancora.
@@ -42,6 +43,7 @@ Per ogni memorizzazione nella cache è possibile visualizzare il volume original
 
 
 
+[[edit-a-cache]]
 == Modifica una cache
 
 È possibile modificare il nome, la dimensione del volume e i criteri di esportazione di una cache.
@@ -63,6 +65,7 @@ Per ogni memorizzazione nella cache è possibile visualizzare il volume original
 
 
 
+[[assign-a-different-cache-export-policy]]
 == Assegna una policy di esportazione della cache diversa
 
 È possibile assegnare una policy di esportazione diversa a una cache.
@@ -82,6 +85,7 @@ TIP: È possibile assegnare una policy di esportazione esistente a una cache.  N
 
 
 
+[[resize-a-cache]]
 == Ridimensionare una cache
 
 È possibile modificare la dimensione del volume della cache in base a una percentuale del volume di origine.
@@ -99,6 +103,7 @@ Il volume della cache verrà ridimensionato in base alla nuova percentuale.
 
 
 
+[[delete-a-cache]]
 == Elimina una cache
 
 Se non hai più bisogno della cache, puoi eliminarla. In questo modo viene eliminata la relazione di memorizzazione nella cache del volume e viene eliminata la cache del volume di destinazione.

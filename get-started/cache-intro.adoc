@@ -20,6 +20,7 @@ La memorizzazione nella cache dei volumi consente inoltre alle filiali di accede
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 La memorizzazione nella cache del volume è accessibile tramite la NetApp Console.
@@ -28,16 +29,18 @@ NetApp Console offre una gestione centralizzata dei servizi di storage e dati Ne
 
 Per iniziare a utilizzare NetApp Console non è necessaria una licenza o un abbonamento e verranno addebitati costi solo quando sarà necessario distribuire gli agenti della console nel cloud per garantire la connettività ai sistemi di storage o ai servizi dati NetApp . Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono concessi in licenza o basati su abbonamento.
 
-Scopri di più su https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"] .
+Scopri di più su link:https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"].
 
 
 
+[[what-is-a-cache]]
 == Cos'è una cache?
 
 Una cache è una posizione di archiviazione temporanea che risiede tra un host e la fonte dei dati.  L'obiettivo di una cache è quello di memorizzare le porzioni di dati sorgente a cui si accede di frequente, in modo da consentire che i dati vengano forniti più velocemente di quanto avverrebbe recuperandoli dalla sorgente.  Le cache sono particolarmente utili negli ambienti ad alta intensità di lettura, in cui i dati vengono acceduti più volte e sono condivisi da più host.  Un sistema cache è più veloce di un sistema con sorgente dati, grazie a un sistema di archiviazione più veloce e alla vicinanza dello spazio di archiviazione della cache all'host.
 
 
 
+[[benefits-of-volume-caching]]
 == Vantaggi della memorizzazione nella cache dei volumi
 
 La memorizzazione nella cache dei volumi offre i seguenti vantaggi:
@@ -52,6 +55,7 @@ La memorizzazione nella cache dei volumi offre i seguenti vantaggi:
 
 
 
+[[what-you-can-do-with-volume-caching]]
 == Cosa puoi fare con Volume Caching
 
 La memorizzazione nella cache dei volumi consente di sfruttare appieno diverse tecnologie NetApp per raggiungere i seguenti obiettivi:
@@ -64,18 +68,21 @@ La memorizzazione nella cache dei volumi consente di sfruttare appieno diverse t
 
 
 
+[[cost]]
 == Costo
 
 NetApp non addebita alcun costo per il caching dei volumi, ma è necessario verificare con il proprio provider cloud i costi applicabili per l'ingresso e l'uscita dei dati.
 
 
 
+[[licensing]]
 == Licenza
 
 Per Volume Caching non sono necessarie licenze ONTAP speciali.
 
 
 
+[[how-volume-caching-works]]
 == Come funziona la memorizzazione nella cache del volume
 
 Un volume cache è un volume scarsamente popolato supportato da un volume sorgente.  Il volume della cache può trovarsi sullo stesso cluster del volume di origine oppure su un cluster diverso.

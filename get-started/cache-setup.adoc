@@ -21,14 +21,16 @@ Per utilizzare Volume Caching, è necessario eseguire alcuni passaggi per config
 
 
 
+[[create-a-console-agent-in-the-netapp-console]]
 == Creare un agente Console nella NetApp Console
 
 Il passaggio successivo consiste nel creare un agente Console nella NetApp Console.
 
-Per creare un agente Console prima di utilizzare Volume Caching, fare riferimento alla documentazione NetApp Console che descrive https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Come creare un agente Console"^].
+Per creare un agente Console prima di utilizzare Volume Caching, consulta la documentazione di NetApp Console per link:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#what-a-console-agent-does["agenti Console"^].
 
 
 
+[[create-systems]]
 == Creare sistemi
 
 Se non lo hai già fatto, devi creare i sistemi per la sorgente e la destinazione.

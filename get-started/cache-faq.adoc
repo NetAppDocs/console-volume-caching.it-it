@@ -14,7 +14,7 @@ summary: Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a
 [role="lead"]
 Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a una domanda.
 
-*Qual è l'URL di Volume Caching?* Per l'URL, in un browser, inserisci: https://console.netapp.com/["https://console.netapp.com/"^] per accedere alla console BlueXP .
+*Qual è l'URL della cache dei volumi?* Per l'URL, in un browser, inserisci:  https://console.netapp.com/["https://console.netapp.com/"^] per accedere alla NetApp Console.
 
 *È necessaria una licenza per utilizzare Volume Caching?* Non è richiesto un file di licenza NetApp (NLF).
 

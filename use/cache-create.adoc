@@ -28,6 +28,7 @@ Il nome del volume memorizzato nella cache utilizza un suffisso di `pass:macros[
 
 
 
+[[steps-from-the-volume-caching-landing-page]]
 == Passaggi dalla landing page di Volume Caching
 
 . Accedi alla NetApp Console.
@@ -72,6 +73,7 @@ La nuova cache viene visualizzata nell'elenco Memorizzazione nella cache.  Verr√
 
 
 
+[[steps-from-the-netapp-console-systems-page]]
 == Passaggi dalla pagina Sistemi NetApp Console
 
 . Dalla pagina Sistemi NetApp Console , selezionare l'ambiente di lavoro.

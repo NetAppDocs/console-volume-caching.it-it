@@ -24,7 +24,7 @@ Per utilizzare Volume Caching, è necessario assicurarsi che l'ambiente soddisfi
 
 * Nella NetApp Console:
 +
-** L'agente Console deve essere configurato nella NetApp Console.  Tutti i cluster di origine e di destinazione devono trovarsi sullo stesso agente Console. Fare riferimento al https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Avvio rapido di BlueXP"^] E https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Scopri di più sugli agenti della console"^] .
+** L'agente della Console deve essere configurato nella NetApp Console. Tutti i cluster di origine e di destinazione devono trovarsi sullo stesso agente della Console. Fai riferimento a link:https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-standard-mode.html["Flusso di lavoro iniziale per NetApp Console"^] e link:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html["Scopri di più sugli agenti della console"^].
 ** L'ambiente di lavoro deve essere predisposto.
 ** I cluster devono essere aggiunti nell'ambiente di lavoro di destinazione e in stato ON o degradato.
 ** Requisiti standard NetApp Console . Fare riferimento a https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisiti NetApp Console"^] .
