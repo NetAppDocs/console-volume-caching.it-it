@@ -4,7 +4,7 @@ permalink: get-started/cache-login.html
 keywords: bluexp login, Volume Caching log in 
 summary: Per iniziare a utilizzare Volume Caching, accedi al servizio nella NetApp Console. 
 ---
-= Accesso alla memorizzazione nella cache del volume
+= Accedi a NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

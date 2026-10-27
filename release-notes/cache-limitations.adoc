@@ -4,7 +4,7 @@ permalink: release-notes/cache-limitations.html
 keywords: Volume Caching, bluexp 
 summary: Le limitazioni note identificano piattaforme, dispositivi o funzioni che non sono supportati da questa versione del servizio o che non interagiscono correttamente con esso. 
 ---
-= Limitazioni note della memorizzazione nella cache dei volumi
+= Limitazioni note di NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

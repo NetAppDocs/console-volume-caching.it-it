@@ -4,7 +4,7 @@ permalink: get-started/cache-quick-start.html
 keywords: how to get started with Volume Caching, Volume Caching quick start 
 summary: Inizia a usare Volume Caching in pochi passaggi. 
 ---
-= Avvio rapido per la memorizzazione nella cache dei volumi
+= Guida rapida per NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -28,6 +28,6 @@ Ecco cosa potresti fare ora.
 
 [role="quick-margin-list"]
 * link:../use/cache-create.html["Crea una cache"] .
-* link:../use/cache-use-overview.html["Gestisci una cache, modifica una cache, ridimensiona una cache o elimina una cache"] .
+* link:../use/cache-manage.html["Gestire una cache"].
 * link:../use/monitor-jobs.html["Monitorare le operazioni di memorizzazione nella cache del volume"].
 

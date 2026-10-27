@@ -24,8 +24,6 @@ indexpage:
       url: "/get-started/cache-faq.html"
   - title: Utilizzare la memorizzazione nella cache del volume
     links:
-    - title: Panoramica sulla memorizzazione nella cache del volume
-      url: "/use/cache-use-overview.html"
     - title: Crea una cache
       url: "/use/cache-create.html"
     - title: Gestire una cache

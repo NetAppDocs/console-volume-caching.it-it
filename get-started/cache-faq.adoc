@@ -4,7 +4,7 @@ permalink: get-started/cache-faq.html
 keywords: Volume Caching faq, caching frequently asked questions 
 summary: Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a una domanda. 
 ---
-= Domande frequenti sulla memorizzazione nella cache dei volumi
+= Domande frequenti su NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
